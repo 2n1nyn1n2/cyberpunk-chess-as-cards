@@ -1,0 +1,378 @@
+{
+  "prompt": [
+    "(pixel art, 8-bit, 16-bit, low resolution:3)",
+    "(transparent background:2)"
+  ],
+  "negative_prompt": [
+    "photorealistic, 3d render, blurry, smooth",
+    "bare legs.",
+    "nudity.",
+    "mutated, disfigured, deformed, malformed, extra limbs, extra fingers, too many limbs, missing limbs",
+    "bad anatomy, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame",
+    "blurry, blurred, watermark, grainy, signature, cut off, draft, too many feet.",
+    "cross-eyed, lazy eye, dilated pupils, unnatural eyes, cataract, blind, blurry eyes,",
+    "poorly drawn eyes, extra eyes, gross proportions, malformed eyelids, sunken eyes, dark circles, grainy eyes, red eyes, cyan eyes."
+  ],
+  "challenges": [
+    {
+      "name": "white_king_on_a_white_tile",
+      "description": "A white king on a white tile",
+      "icon": "♔",
+      "team": "white",
+      "prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "(king's crown:2), middle aged, male, pants, shirt, leather jacket with a hood, beard.",
+        "defending. crouching. (barrel in the foreground:2)"
+      ],
+      "tile": "white_tile",
+      "possession": "white_king"
+    },
+    {
+      "name": "white_king_on_a_black_tile",
+      "description": "A white king on a black tile",
+      "icon": "♔",
+      "team": "white",
+      "prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "(king's crown:2), middle aged, male, pants, shirt, leather jacket with a hood, beard.",
+        "defending. crouching. (barrel in the foreground:2)"
+      ],
+      "tile": "black_tile",
+      "possession": "white_king"
+    },
+    {
+      "name": "white_queen_on_a_white_tile",
+      "description": "A white queen on a white tile",
+      "icon": "♕",
+      "team": "white",
+      "prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "(queen's crown:2), female, long dress, shirt, leather jacket.",
+        "defending. crouching. (table in the foreground:2)"
+      ],
+      "tile": "white_tile",
+      "possession": "white_queen"
+    },
+    {
+      "name": "white_queen_on_a_black_tile",
+      "description": "A white queen on a black tile",
+      "icon": "♕",
+      "team": "white",
+      "prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "(queen's crown:2), female, long dress, shirt, leather jacket.",
+        "defending. crouching. (table in the foreground:2)"
+      ],
+      "tile": "black_tile",
+      "possession": "white_queen"
+    },
+    {
+      "name": "white_rook_on_a_white_tile",
+      "description": "A white rook on a white tile",
+      "icon": "♖",
+      "team": "white",
+      "prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, soft cap, (sunglasses:2)",
+        "defending. crouching. (barrel in the foreground:2)"
+      ],
+      "tile": "white_tile",
+      "possession": "white_rook"
+    },
+    {
+      "name": "white_rook_on_a_black_tile",
+      "description": "A white rook on a black tile",
+      "icon": "♖",
+      "team": "white",
+      "prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, soft cap, (sunglasses:2)",
+        "defending. crouching. (barrel in the foreground:2)"
+      ],
+      "tile": "black_tile",
+      "possession": "white_rook"
+    },
+    {
+      "name": "white_bishop_on_a_white_tile",
+      "description": "A white bishop on a white tile",
+      "icon": "♗",
+      "team": "white",
+      "prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack:2)",
+        "defending. crouching. (box in the foreground:2)"
+      ],
+      "tile": "white_tile",
+      "possession": "white_bishop"
+    },
+    {
+      "name": "white_bishop_on_a_black_tile",
+      "description": "A white bishop on a black tile",
+      "icon": "♗",
+      "team": "white",
+      "prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack:2)",
+        "defending. crouching. (box in the foreground:2)"
+      ],
+      "tile": "black_tile",
+      "possession": "white_bishop"
+    },
+    {
+      "name": "white_knight_on_a_white_tile",
+      "description": "A white knight on a white tile",
+      "icon": "♘",
+      "team": "white",
+      "prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack with {yellow} wings:2)",
+        "defending. crouching. (box in the foreground:2)"
+      ],
+      "tile": "white_tile",
+      "possession": "white_knight"
+    },
+    {
+      "name": "white_knight_on_a_black_tile",
+      "description": "A white knight on a black tile",
+      "icon": "♘",
+      "team": "white",
+      "prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack with {yellow} wings:2)",
+        "defending. crouching. (box in the foreground:2)"
+      ],
+      "tile": "black_tile",
+      "possession": "white_knight"
+    },
+    {
+      "name": "white_pawn_on_a_white_tile",
+      "description": "A white pawn on a white tile",
+      "icon": "♙",
+      "team": "white",
+      "prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (holding rifle:2), (wearing shield:2)",
+        "defending. crouching. (shield in the foreground:2)"
+      ],
+      "tile": "white_tile",
+      "possession": "white_pawn"
+    },
+    {
+      "name": "white_pawn_on_a_black_tile",
+      "description": "A white pawn on a black tile",
+      "icon": "♙",
+      "team": "white",
+      "prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (holding rifle:2), (wearing shield:2)",
+        "defending. crouching. (shield in the foreground:2)"
+      ],
+      "tile": "black_tile",
+      "possession": "white_pawn"
+    },
+    {
+      "name": "black_king_on_a_white_tile",
+      "description": "A black king on a white tile",
+      "icon": "♔",
+      "team": "black",
+      "prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "(king's crown:2), middle aged, male, pants, shirt, leather jacket with a hood, beard.",
+        "defending. crouching. (barrel in the foreground:2)"
+      ],
+      "tile": "white_tile",
+      "possession": "black_king"
+    },
+    {
+      "name": "black_king_on_a_black_tile",
+      "description": "A black king on a black tile",
+      "icon": "♔",
+      "team": "black",
+      "prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "(king's crown:2), middle aged, male, pants, shirt, leather jacket with a hood, beard.",
+        "defending. crouching. (barrel in the foreground:2)"
+      ],
+      "tile": "black_tile",
+      "possession": "black_king"
+    },
+    {
+      "name": "black_queen_on_a_white_tile",
+      "description": "A black queen on a white tile",
+      "icon": "♕",
+      "team": "black",
+      "prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "(queen's crown:2), female, long dress, shirt, leather jacket.",
+        "defending. crouching. (table in the foreground:2)"
+      ],
+      "tile": "white_tile",
+      "possession": "black_queen"
+    },
+    {
+      "name": "black_queen_on_a_black_tile",
+      "description": "A black queen on a black tile",
+      "icon": "♕",
+      "team": "black",
+      "prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "(queen's crown:2), female, long dress, shirt, leather jacket.",
+        "defending. crouching. (table in the foreground:2)"
+      ],
+      "tile": "black_tile",
+      "possession": "black_queen"
+    },
+    {
+      "name": "black_rook_on_a_white_tile",
+      "description": "A black rook on a white tile",
+      "icon": "♖",
+      "team": "black",
+      "prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, soft cap, (sunglasses:2)",
+        "defending. crouching. (barrel in the foreground:2)"
+      ],
+      "tile": "white_tile",
+      "possession": "black_rook"
+    },
+    {
+      "name": "black_rook_on_a_black_tile",
+      "description": "A black rook on a black tile",
+      "icon": "♖",
+      "team": "black",
+      "prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, soft cap, (sunglasses:2)",
+        "defending. crouching. (barrel in the foreground:2)"
+      ],
+      "tile": "black_tile",
+      "possession": "black_rook"
+    },
+    {
+      "name": "black_bishop_on_a_white_tile",
+      "description": "A black bishop on a white tile",
+      "icon": "♗",
+      "team": "black",
+      "prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack:2)",
+        "defending. crouching. (box in the foreground:2)"
+      ],
+      "tile": "white_tile",
+      "possession": "black_bishop"
+    },
+    {
+      "name": "black_bishop_on_a_black_tile",
+      "description": "A black bishop on a black tile",
+      "icon": "♗",
+      "team": "black",
+      "prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack:2)",
+        "defending. crouching. (box in the foreground:2)"
+      ],
+      "tile": "black_tile",
+      "possession": "black_bishop"
+    },
+    {
+      "name": "black_knight_on_a_white_tile",
+      "description": "A black knight on a white tile",
+      "icon": "♘",
+      "team": "black",
+      "prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack with {purple} wings:2)",
+        "defending. crouching. (box in the foreground:2)"
+      ],
+      "tile": "white_tile",
+      "possession": "black_knight"
+    },
+    {
+      "name": "black_knight_on_a_black_tile",
+      "description": "A black knight on a black tile",
+      "icon": "♘",
+      "team": "black",
+      "prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack with {purple} wings:2)",
+        "defending. crouching. (box in the foreground:2)"
+      ],
+      "tile": "black_tile",
+      "possession": "black_knight"
+    },
+    {
+      "name": "black_pawn_on_a_white_tile",
+      "description": "A black pawn on a white tile",
+      "icon": "♙",
+      "team": "black",
+      "prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (holding rifle:2), (wearing shield:2)",
+        "defending. crouching. (shield in the foreground:2)"
+      ],
+      "tile": "white_tile",
+      "possession": "black_pawn"
+    },
+    {
+      "name": "black_pawn_on_a_black_tile",
+      "description": "A black pawn on a black tile",
+      "icon": "♙",
+      "team": "black",
+      "prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (holding rifle:2), (wearing shield:2)",
+        "defending. crouching. (shield in the foreground:2)"
+      ],
+      "tile": "black_tile",
+      "possession": "black_pawn"
+    }
+  ]
+}

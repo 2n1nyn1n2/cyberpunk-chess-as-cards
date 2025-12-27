@@ -1,0 +1,618 @@
+{
+  "prompt": [
+    "(pixel art, 8-bit, 16-bit, low resolution:3)",
+    "(transparent background:2)"
+  ],
+  "negative_prompt": [
+    "photorealistic, 3d render, blurry, smooth",
+    "bare legs.",
+    "nudity.",
+    "mutated, disfigured, deformed, malformed, extra limbs, extra fingers, too many limbs, missing limbs",
+    "bad anatomy, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame",
+    "blurry, blurred, watermark, grainy, signature, cut off, draft, too many feet.",
+    "cross-eyed, lazy eye, dilated pupils, unnatural eyes, cataract, blind, blurry eyes,",
+    "poorly drawn eyes, extra eyes, gross proportions, malformed eyelids, sunken eyes, dark circles, grainy eyes, red eyes, cyan eyes."
+  ],
+  "characters": [
+    {
+      "name": "white_king_on_a_white_tile",
+      "description": "A white king on a white tile",
+      "icon": "♔",
+      "team": "white",
+      "prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "(king's crown:2), middle aged, male, pants, shirt, leather jacket with a hood, beard.",
+        "attacking. dagger in hand"
+      ],
+      "tile": "white_tile",
+      "possession": "white_king",
+      "projectile": "dagger",
+      "projectile_prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "(king's crown:2), middle aged, male, pants, shirt, leather jacket with a hood, beard.",
+        ", (flying:2), hovering, (speed lines:2), (motion blur:2), (action shot:2). dagger in hand",
+        "BREAK",
+        "flying projectile, (single yellow dagger:3), flying, hovering, (speed lines:2), (motion blur:2), (action shot:2)"
+      ]
+    },
+    {
+      "name": "white_king_on_a_black_tile",
+      "description": "A white king on a black tile",
+      "icon": "♔",
+      "team": "white",
+      "prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "(king's crown:2), middle aged, male, pants, shirt, leather jacket with a hood, beard.",
+        "attacking. dagger in hand"
+      ],
+      "tile": "black_tile",
+      "possession": "white_king",
+      "projectile": "dagger",
+      "projectile_prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "(king's crown:2), middle aged, male, pants, shirt, leather jacket with a hood, beard.",
+        ", (flying:2), hovering, (speed lines:2), (motion blur:2), (action shot:2). dagger in hand",
+        "BREAK",
+        "flying projectile, (single yellow dagger:3), flying, hovering, (speed lines:2), (motion blur:2), (action shot:2)"
+      ]
+    },
+    {
+      "name": "white_queen_on_a_white_tile",
+      "description": "A white queen on a white tile",
+      "icon": "♕",
+      "team": "white",
+      "prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "(queen's crown:2), female, long dress, shirt, leather jacket.",
+        "attacking. mace in hand"
+      ],
+      "tile": "white_tile",
+      "possession": "white_queen",
+      "projectile": "mace",
+      "projectile_prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "(queen's crown:2), female, long dress, shirt, leather jacket.",
+        ", (flying:2), hovering, (speed lines:2), (motion blur:2), (action shot:2). mace in hand",
+        "BREAK",
+        "flying projectile, (single yellow mace:3), flying, hovering, (speed lines:2), (motion blur:2), (action shot:2)"
+      ]
+    },
+    {
+      "name": "white_queen_on_a_black_tile",
+      "description": "A white queen on a black tile",
+      "icon": "♕",
+      "team": "white",
+      "prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "(queen's crown:2), female, long dress, shirt, leather jacket.",
+        "attacking. mace in hand"
+      ],
+      "tile": "black_tile",
+      "possession": "white_queen",
+      "projectile": "mace",
+      "projectile_prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "(queen's crown:2), female, long dress, shirt, leather jacket.",
+        ", (flying:2), hovering, (speed lines:2), (motion blur:2), (action shot:2). mace in hand",
+        "BREAK",
+        "flying projectile, (single yellow mace:3), flying, hovering, (speed lines:2), (motion blur:2), (action shot:2)"
+      ]
+    },
+    {
+      "name": "white_rook_on_a_white_tile",
+      "description": "A white rook on a white tile",
+      "icon": "♖",
+      "team": "white",
+      "prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, soft cap, (sunglasses:2)",
+        "attacking. video game controller in hand"
+      ],
+      "tile": "white_tile",
+      "possession": "white_rook",
+      "projectile": "rc helicopter",
+      "projectile_prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, soft cap, (sunglasses:2)",
+        ", (flying:2), hovering, (speed lines:2), (motion blur:2), (action shot:2). video game controller in hand",
+        "BREAK",
+        "flying projectile, (single yellow rc helicopter:3), flying, hovering, (speed lines:2), (motion blur:2), (action shot:2)"
+      ]
+    },
+    {
+      "name": "white_rook_on_a_black_tile",
+      "description": "A white rook on a black tile",
+      "icon": "♖",
+      "team": "white",
+      "prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, soft cap, (sunglasses:2)",
+        "attacking. video game controller in hand"
+      ],
+      "tile": "black_tile",
+      "possession": "white_rook",
+      "projectile": "rc helicopter",
+      "projectile_prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, soft cap, (sunglasses:2)",
+        ", (flying:2), hovering, (speed lines:2), (motion blur:2), (action shot:2). video game controller in hand",
+        "BREAK",
+        "flying projectile, (single yellow rc helicopter:3), flying, hovering, (speed lines:2), (motion blur:2), (action shot:2)"
+      ]
+    },
+    {
+      "name": "white_bishop_on_a_white_tile",
+      "description": "A white bishop on a white tile",
+      "icon": "♗",
+      "team": "white",
+      "prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack:2)",
+        "attacking. radio in hand"
+      ],
+      "tile": "white_tile",
+      "possession": "white_bishop",
+      "projectile": "rpg7",
+      "projectile_prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack:2)",
+        ", (flying:2), hovering, (speed lines:2), (motion blur:2), (action shot:2). radio in hand",
+        "BREAK",
+        "flying projectile, (single yellow rpg7:3), flying, hovering, (speed lines:2), (motion blur:2), (action shot:2)"
+      ]
+    },
+    {
+      "name": "white_bishop_on_a_black_tile",
+      "description": "A white bishop on a black tile",
+      "icon": "♗",
+      "team": "white",
+      "prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack:2)",
+        "attacking. radio in hand"
+      ],
+      "tile": "black_tile",
+      "possession": "white_bishop",
+      "projectile": "rpg7",
+      "projectile_prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack:2)",
+        ", (flying:2), hovering, (speed lines:2), (motion blur:2), (action shot:2). radio in hand",
+        "BREAK",
+        "flying projectile, (single yellow rpg7:3), flying, hovering, (speed lines:2), (motion blur:2), (action shot:2)"
+      ]
+    },
+    {
+      "name": "white_knight_on_a_white_tile",
+      "description": "A white knight on a white tile",
+      "icon": "♘",
+      "team": "white",
+      "prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack with {yellow} wings:2)",
+        "attacking. controller in hand"
+      ],
+      "tile": "white_tile",
+      "possession": "white_knight",
+      "projectile": "rc car",
+      "projectile_prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack with {yellow} wings:2)",
+        ", (flying:2), hovering, (speed lines:2), (motion blur:2), (action shot:2). controller in hand",
+        "BREAK",
+        "flying projectile, (single yellow rc car:3), flying, hovering, (speed lines:2), (motion blur:2), (action shot:2)"
+      ]
+    },
+    {
+      "name": "white_knight_on_a_black_tile",
+      "description": "A white knight on a black tile",
+      "icon": "♘",
+      "team": "white",
+      "prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack with {yellow} wings:2)",
+        "attacking. controller in hand"
+      ],
+      "tile": "black_tile",
+      "possession": "white_knight",
+      "projectile": "rc car",
+      "projectile_prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack with {yellow} wings:2)",
+        ", (flying:2), hovering, (speed lines:2), (motion blur:2), (action shot:2). controller in hand",
+        "BREAK",
+        "flying projectile, (single yellow rc car:3), flying, hovering, (speed lines:2), (motion blur:2), (action shot:2)"
+      ]
+    },
+    {
+      "name": "white_pawn_on_a_white_tile",
+      "description": "A white pawn on a white tile",
+      "icon": "♙",
+      "team": "white",
+      "prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (holding rifle:2), (wearing shield:2)",
+        "attacking. rifle in hand"
+      ],
+      "tile": "white_tile",
+      "possession": "white_pawn",
+      "projectile": "bullet",
+      "projectile_prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (holding rifle:2), (wearing shield:2)",
+        ", (flying:2), hovering, (speed lines:2), (motion blur:2), (action shot:2). rifle in hand",
+        "BREAK",
+        "flying projectile, (single yellow bullet:3), flying, hovering, (speed lines:2), (motion blur:2), (action shot:2)"
+      ]
+    },
+    {
+      "name": "white_pawn_on_a_black_tile",
+      "description": "A white pawn on a black tile",
+      "icon": "♙",
+      "team": "white",
+      "prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (holding rifle:2), (wearing shield:2)",
+        "attacking. rifle in hand"
+      ],
+      "tile": "black_tile",
+      "possession": "white_pawn",
+      "projectile": "bullet",
+      "projectile_prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (holding rifle:2), (wearing shield:2)",
+        ", (flying:2), hovering, (speed lines:2), (motion blur:2), (action shot:2). rifle in hand",
+        "BREAK",
+        "flying projectile, (single yellow bullet:3), flying, hovering, (speed lines:2), (motion blur:2), (action shot:2)"
+      ]
+    },
+    {
+      "name": "black_king_on_a_white_tile",
+      "description": "A black king on a white tile",
+      "icon": "♔",
+      "team": "black",
+      "prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "(king's crown:2), middle aged, male, pants, shirt, leather jacket with a hood, beard.",
+        "attacking. dagger in hand"
+      ],
+      "tile": "white_tile",
+      "possession": "black_king",
+      "projectile": "dagger",
+      "projectile_prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "(king's crown:2), middle aged, male, pants, shirt, leather jacket with a hood, beard.",
+        ", (flying:2), hovering, (speed lines:2), (motion blur:2), (action shot:2). dagger in hand",
+        "BREAK",
+        "flying projectile, (single purple dagger:3), flying, hovering, (speed lines:2), (motion blur:2), (action shot:2)"
+      ]
+    },
+    {
+      "name": "black_king_on_a_black_tile",
+      "description": "A black king on a black tile",
+      "icon": "♔",
+      "team": "black",
+      "prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "(king's crown:2), middle aged, male, pants, shirt, leather jacket with a hood, beard.",
+        "attacking. dagger in hand"
+      ],
+      "tile": "black_tile",
+      "possession": "black_king",
+      "projectile": "dagger",
+      "projectile_prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "(king's crown:2), middle aged, male, pants, shirt, leather jacket with a hood, beard.",
+        ", (flying:2), hovering, (speed lines:2), (motion blur:2), (action shot:2). dagger in hand",
+        "BREAK",
+        "flying projectile, (single purple dagger:3), flying, hovering, (speed lines:2), (motion blur:2), (action shot:2)"
+      ]
+    },
+    {
+      "name": "black_queen_on_a_white_tile",
+      "description": "A black queen on a white tile",
+      "icon": "♕",
+      "team": "black",
+      "prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "(queen's crown:2), female, long dress, shirt, leather jacket.",
+        "attacking. mace in hand"
+      ],
+      "tile": "white_tile",
+      "possession": "black_queen",
+      "projectile": "mace",
+      "projectile_prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "(queen's crown:2), female, long dress, shirt, leather jacket.",
+        ", (flying:2), hovering, (speed lines:2), (motion blur:2), (action shot:2). mace in hand",
+        "BREAK",
+        "flying projectile, (single purple mace:3), flying, hovering, (speed lines:2), (motion blur:2), (action shot:2)"
+      ]
+    },
+    {
+      "name": "black_queen_on_a_black_tile",
+      "description": "A black queen on a black tile",
+      "icon": "♕",
+      "team": "black",
+      "prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "(queen's crown:2), female, long dress, shirt, leather jacket.",
+        "attacking. mace in hand"
+      ],
+      "tile": "black_tile",
+      "possession": "black_queen",
+      "projectile": "mace",
+      "projectile_prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "(queen's crown:2), female, long dress, shirt, leather jacket.",
+        ", (flying:2), hovering, (speed lines:2), (motion blur:2), (action shot:2). mace in hand",
+        "BREAK",
+        "flying projectile, (single purple mace:3), flying, hovering, (speed lines:2), (motion blur:2), (action shot:2)"
+      ]
+    },
+    {
+      "name": "black_rook_on_a_white_tile",
+      "description": "A black rook on a white tile",
+      "icon": "♖",
+      "team": "black",
+      "prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, soft cap, (sunglasses:2)",
+        "attacking. video game controller in hand"
+      ],
+      "tile": "white_tile",
+      "possession": "black_rook",
+      "projectile": "rc helicopter",
+      "projectile_prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, soft cap, (sunglasses:2)",
+        ", (flying:2), hovering, (speed lines:2), (motion blur:2), (action shot:2). video game controller in hand",
+        "BREAK",
+        "flying projectile, (single purple rc helicopter:3), flying, hovering, (speed lines:2), (motion blur:2), (action shot:2)"
+      ]
+    },
+    {
+      "name": "black_rook_on_a_black_tile",
+      "description": "A black rook on a black tile",
+      "icon": "♖",
+      "team": "black",
+      "prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, soft cap, (sunglasses:2)",
+        "attacking. video game controller in hand"
+      ],
+      "tile": "black_tile",
+      "possession": "black_rook",
+      "projectile": "rc helicopter",
+      "projectile_prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, soft cap, (sunglasses:2)",
+        ", (flying:2), hovering, (speed lines:2), (motion blur:2), (action shot:2). video game controller in hand",
+        "BREAK",
+        "flying projectile, (single purple rc helicopter:3), flying, hovering, (speed lines:2), (motion blur:2), (action shot:2)"
+      ]
+    },
+    {
+      "name": "black_bishop_on_a_white_tile",
+      "description": "A black bishop on a white tile",
+      "icon": "♗",
+      "team": "black",
+      "prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack:2)",
+        "attacking. radio in hand"
+      ],
+      "tile": "white_tile",
+      "possession": "black_bishop",
+      "projectile": "rpg7",
+      "projectile_prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack:2)",
+        ", (flying:2), hovering, (speed lines:2), (motion blur:2), (action shot:2). radio in hand",
+        "BREAK",
+        "flying projectile, (single purple rpg7:3), flying, hovering, (speed lines:2), (motion blur:2), (action shot:2)"
+      ]
+    },
+    {
+      "name": "black_bishop_on_a_black_tile",
+      "description": "A black bishop on a black tile",
+      "icon": "♗",
+      "team": "black",
+      "prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack:2)",
+        "attacking. radio in hand"
+      ],
+      "tile": "black_tile",
+      "possession": "black_bishop",
+      "projectile": "rpg7",
+      "projectile_prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack:2)",
+        ", (flying:2), hovering, (speed lines:2), (motion blur:2), (action shot:2). radio in hand",
+        "BREAK",
+        "flying projectile, (single purple rpg7:3), flying, hovering, (speed lines:2), (motion blur:2), (action shot:2)"
+      ]
+    },
+    {
+      "name": "black_knight_on_a_white_tile",
+      "description": "A black knight on a white tile",
+      "icon": "♘",
+      "team": "black",
+      "prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack with {purple} wings:2)",
+        "attacking. controller in hand"
+      ],
+      "tile": "white_tile",
+      "possession": "black_knight",
+      "projectile": "rc car",
+      "projectile_prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack with {purple} wings:2)",
+        ", (flying:2), hovering, (speed lines:2), (motion blur:2), (action shot:2). controller in hand",
+        "BREAK",
+        "flying projectile, (single purple rc car:3), flying, hovering, (speed lines:2), (motion blur:2), (action shot:2)"
+      ]
+    },
+    {
+      "name": "black_knight_on_a_black_tile",
+      "description": "A black knight on a black tile",
+      "icon": "♘",
+      "team": "black",
+      "prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack with {purple} wings:2)",
+        "attacking. controller in hand"
+      ],
+      "tile": "black_tile",
+      "possession": "black_knight",
+      "projectile": "rc car",
+      "projectile_prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack with {purple} wings:2)",
+        ", (flying:2), hovering, (speed lines:2), (motion blur:2), (action shot:2). controller in hand",
+        "BREAK",
+        "flying projectile, (single purple rc car:3), flying, hovering, (speed lines:2), (motion blur:2), (action shot:2)"
+      ]
+    },
+    {
+      "name": "black_pawn_on_a_white_tile",
+      "description": "A black pawn on a white tile",
+      "icon": "♙",
+      "team": "black",
+      "prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (holding rifle:2), (wearing shield:2)",
+        "attacking. rifle in hand"
+      ],
+      "tile": "white_tile",
+      "possession": "black_pawn",
+      "projectile": "bullet",
+      "projectile_prompt": [
+        "(yellow floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (holding rifle:2), (wearing shield:2)",
+        ", (flying:2), hovering, (speed lines:2), (motion blur:2), (action shot:2). rifle in hand",
+        "BREAK",
+        "flying projectile, (single purple bullet:3), flying, hovering, (speed lines:2), (motion blur:2), (action shot:2)"
+      ]
+    },
+    {
+      "name": "black_pawn_on_a_black_tile",
+      "description": "A black pawn on a black tile",
+      "icon": "♙",
+      "team": "black",
+      "prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (holding rifle:2), (wearing shield:2)",
+        "attacking. rifle in hand"
+      ],
+      "tile": "black_tile",
+      "possession": "black_pawn",
+      "projectile": "bullet",
+      "projectile_prompt": [
+        "(purple floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "{male, pants|female, skirt, leggings}, shirt, (holding rifle:2), (wearing shield:2)",
+        ", (flying:2), hovering, (speed lines:2), (motion blur:2), (action shot:2). rifle in hand",
+        "BREAK",
+        "flying projectile, (single purple bullet:3), flying, hovering, (speed lines:2), (motion blur:2), (action shot:2)"
+      ]
+    }
+  ]
+}

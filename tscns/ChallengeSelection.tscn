@@ -1,0 +1,77 @@
+[gd_scene load_steps=4 format=3 uid="uid://cumj4uno7alb8"]
+
+[ext_resource type="Script" uid="uid://dr3kdplv8rdrm" path="res://scripts/ChallengeSelection.gd" id="1_fxx26"]
+[ext_resource type="PackedScene" path="res://tscns/Background.tscn" id="2_8tav8"]
+[ext_resource type="PackedScene" uid="uid://fburegxkwgnl" path="res://tscns/Character.tscn" id="3_8tav8"]
+
+[node name="ChallengeSelection" type="Node"]
+script = ExtResource("1_fxx26")
+
+[node name="Background" parent="." instance=ExtResource("2_8tav8")]
+
+[node name="Hand" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_top = 810.0
+offset_bottom = 810.0
+
+[node name="SelectChallengeContainer" type="PanelContainer" parent="."]
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 1792.0
+offset_bottom = 2048.0
+grow_horizontal = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="SelectChallenge" type="Button" parent="SelectChallengeContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 96
+disabled = true
+text = "Choose This Challenge
+"
+
+[node name="ScrollHandLeftContainer" type="PanelContainer" parent="."]
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 1536.0
+offset_right = -1024.0
+offset_bottom = 1792.0
+grow_horizontal = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="ScrollHandLeft" type="Button" parent="ScrollHandLeftContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 96
+disabled = true
+text = "< LEFT <"
+
+[node name="ScrollHandRightContainer" type="PanelContainer" parent="."]
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 1024.0
+offset_top = 1536.0
+offset_bottom = 1792.0
+grow_horizontal = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="ScrollHandRight" type="Button" parent="ScrollHandRightContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 96
+disabled = true
+text = "> RIGHT >"
+
+[node name="Character" parent="." instance=ExtResource("3_8tav8")]
+offset_top = 10.0
+offset_bottom = 10.0
+
+[node name="BackButton" type="Button" parent="."]
+visible = false
+offset_left = 1665.0
+offset_top = 1.0
+offset_right = 2047.0
+offset_bottom = 383.0
+theme_override_font_sizes/font_size = 96
+text = "Back"

@@ -1,0 +1,95 @@
+[gd_scene load_steps=3 format=3 uid="uid://cuasked0hoksw"]
+
+[ext_resource type="Script" uid="uid://ciesjc3g27qxn" path="res://scripts/Scene.gd" id="1_tp323"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_p0vlq"]
+
+[node name="Scene" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_tp323")
+
+[node name="Background" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(128, 128)
+layout_mode = 1
+offset_right = 128.0
+offset_bottom = 128.0
+mouse_filter = 1
+
+[node name="SceneName" type="Label" parent="."]
+layout_mode = 0
+offset_right = 128.0
+offset_bottom = 23.0
+mouse_filter = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Scene Name"
+
+[node name="SceneDescription" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 8.0
+offset_top = 16.0
+offset_right = 136.0
+offset_bottom = 80.0
+mouse_filter = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Scene Description"
+autowrap_mode = 2
+
+[node name="SceneImageBorder" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 16.0
+offset_right = 112.0
+offset_bottom = 112.0
+color = Color(0, 0, 0, 1)
+
+[node name="SceneImage" type="TextureRect" parent="."]
+clip_contents = true
+layout_mode = 0
+offset_left = 16.0
+offset_top = 16.0
+offset_right = 112.0
+offset_bottom = 112.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = SubResource("CompressedTexture2D_p0vlq")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="SceneChallengeImage" type="TextureRect" parent="."]
+clip_contents = true
+layout_mode = 0
+offset_left = 16.0
+offset_top = 16.0
+offset_right = 112.0
+offset_bottom = 112.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = SubResource("CompressedTexture2D_p0vlq")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="SceneChallengeIconBackground" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 1
+offset_left = 16.0
+offset_top = 66.0
+offset_right = 56.0
+offset_bottom = 112.0
+mouse_filter = 1
+color = Color(0, 0, 0, 1)
+
+[node name="SceneChallengeIcon" type="Label" parent="."]
+layout_mode = 1
+offset_left = 16.0
+offset_top = 42.0
+offset_right = 56.0
+offset_bottom = 130.0
+mouse_filter = 1
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 64
+text = "X"
+
+[connection signal="mouse_entered" from="." to="." method="_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_mouse_exited"]

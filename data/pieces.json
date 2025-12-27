@@ -1,0 +1,98 @@
+{
+  "prompt": [
+    "(pixel art, 8-bit, 16-bit, low resolution:3)",
+    "(transparent background:2)"
+  ],
+  "negative_prompt": [
+    "photorealistic, 3d render, blurry, smooth",
+    "bare legs.",
+    "nudity.",
+    "mutated, disfigured, deformed, malformed, extra limbs, extra fingers, too many limbs, missing limbs",
+    "bad anatomy, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame",
+    "blurry, blurred, watermark, grainy, signature, cut off, draft, too many feet.",
+    "cross-eyed, lazy eye, dilated pupils, unnatural eyes, cataract, blind, blurry eyes,",
+    "poorly drawn eyes, extra eyes, gross proportions, malformed eyelids, sunken eyes, dark circles, grainy eyes, red eyes, cyan eyes."
+  ],
+  "team_color_prompt": [
+    "The centerpiece of the image is the full body shot of a single person (wearing all {team color} clothes:2)"
+  ],
+  "team_colors": [
+    { "name": "white", "color": "yellow" },
+    { "name": "black", "color": "purple" }
+  ],
+  "pieces": [
+    {
+      "name": "king",
+      "icon": "♔",
+      "weapon": "dagger",
+      "hand_item": "dagger",
+      "projectile": "dagger",
+      "defenses": "barrel",
+      "max": 1,
+      "description": [
+        "(king's crown:2), middle aged, male, pants, shirt, leather jacket with a hood, beard."
+      ]
+    },
+    {
+      "name": "queen",
+      "icon": "♕",
+      "weapon": "mace",
+      "hand_item": "mace",
+      "projectile": "mace",
+      "defenses": "table",
+      "max": 1,
+      "description": [
+        "(queen's crown:2), female, long dress, shirt, leather jacket."
+      ]
+    },
+    {
+      "name": "rook",
+      "icon": "♖",
+      "weapon": "rc helicopter",
+      "hand_item": "video game controller",
+      "projectile": "rc helicopter",
+      "defenses": "barrel",
+      "max": 2,
+      "description": [
+        "{male, pants|female, skirt, leggings}, shirt, soft cap, (sunglasses:2)"
+      ]
+    },
+    {
+      "name": "bishop",
+      "team": "white",
+      "icon": "♗",
+      "weapon": "rpg7",
+      "hand_item": "radio",
+      "projectile": "rpg7",
+      "defenses": "box",
+      "max": 2,
+      "description": [
+        "{male, pants|female, skirt, leggings}, shirt, (backpack:2)"
+      ]
+    },
+    {
+      "name": "knight",
+      "icon": "♘",
+      "weapon": "rc car",
+      "hand_item": "controller",
+      "projectile": "rc car",
+      "defenses": "box",
+      "max": 2,
+      "description": [
+        "{male, pants|female, skirt, leggings}, shirt, (backpack with {team color} wings:2)"
+      ]
+    },
+    {
+      "name": "pawn",
+      "icon": "♙",
+      "weapon": "rifle",
+      "hand_item": "rifle",
+      "projectile": "bullet",
+      "defenses": "shield",
+      "max": 8,
+      "description": [
+        "{male, pants|female, skirt, leggings}, shirt, (holding rifle:2), (wearing shield:2)"
+      ]
+    }
+  ]
+}
