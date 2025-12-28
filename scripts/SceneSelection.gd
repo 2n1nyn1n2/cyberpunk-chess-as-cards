@@ -130,7 +130,10 @@ func load_scenes_from_json(path: String):
 
 			#var challengeArray = c.get("challenges", [])
 
-			scene.scene_challenge_icon = " "
+			if tile == "black_tile":
+				scene.scene_challenge_icon = "x"
+			else:
+				scene.scene_challenge_icon = "z"
 
 			#if typeof(challengeArray) == TYPE_ARRAY and challengeArray.size() > 0:
 			var chess_piece = ChessLogic.get_piece_at_notation(scene_name)

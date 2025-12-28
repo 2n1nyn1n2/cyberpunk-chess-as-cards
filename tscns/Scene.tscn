@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://cuasked0hoksw"]
+[gd_scene load_steps=4 format=3 uid="uid://cuasked0hoksw"]
 
 [ext_resource type="Script" uid="uid://ciesjc3g27qxn" path="res://scripts/Scene.gd" id="1_tp323"]
+[ext_resource type="FontFile" uid="uid://cw6j0eugbiyjx" path="res://fonts/OpenChessFont.ttf" id="2_ui4ow"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_p0vlq"]
 
@@ -74,22 +75,23 @@ stretch_mode = 5
 custom_minimum_size = Vector2(32, 32)
 layout_mode = 1
 offset_left = 16.0
-offset_top = 66.0
-offset_right = 56.0
+offset_top = 74.0
+offset_right = 54.0
 offset_bottom = 112.0
 mouse_filter = 1
 color = Color(0, 0, 0, 1)
 
 [node name="SceneChallengeIcon" type="Label" parent="."]
 layout_mode = 1
-offset_left = 12.0
-offset_top = 62.0
-offset_right = 52.0
-offset_bottom = 150.0
+offset_left = 17.0
+offset_top = 75.0
+offset_right = 54.0
+offset_bottom = 111.0
 mouse_filter = 1
 theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_font_sizes/font_size = 48
-text = "X"
+theme_override_fonts/font = ExtResource("2_ui4ow")
+theme_override_font_sizes/font_size = 36
+text = "x"
 
 [connection signal="mouse_entered" from="." to="." method="_mouse_entered"]
 [connection signal="mouse_exited" from="." to="." method="_mouse_exited"]
