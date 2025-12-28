@@ -61,7 +61,7 @@ func get_random_png_resource_from_dir(path: String) -> Resource:
 	if dir:
 		var files = dir.get_files()
 		var pngs: Array[String] = []
-		print("get_random_png_resource_from_dir files: ", files.size())
+		#print("get_random_png_resource_from_dir files: ", files.size())
 
 		for f in files:
 			# In exported projects (Web), .png files often show up as "image.png.import"
@@ -74,14 +74,14 @@ func get_random_png_resource_from_dir(path: String) -> Resource:
 				if not pngs.has(clean_name):
 					pngs.append(clean_name)
 
-		print("get_random_png_resource_from_dir pngs: ", pngs.size())
+		#print("get_random_png_resource_from_dir pngs: ", pngs.size())
 
 		if not pngs.is_empty():
 			var random_png = pngs.pick_random()
 			# load() works with the virtual res:// path automatically
 			resource = load(path.path_join(random_png))
 
-	print("get_random_png_resource_from_dir path: ", path, " resource: ", resource)
+	#print("get_random_png_resource_from_dir path: ", path, " resource: ", resource)
 	return resource
 
 

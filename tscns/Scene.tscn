@@ -1,7 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://cuasked0hoksw"]
 
 [ext_resource type="Script" uid="uid://ciesjc3g27qxn" path="res://scripts/Scene.gd" id="1_tp323"]
-[ext_resource type="FontFile" uid="uid://cw6j0eugbiyjx" path="res://fonts/OpenChessFont.ttf" id="2_ui4ow"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_p0vlq"]
 
@@ -89,7 +88,6 @@ offset_right = 56.0
 offset_bottom = 130.0
 mouse_filter = 1
 theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_fonts/font = ExtResource("2_ui4ow")
 theme_override_font_sizes/font_size = 64
 text = "X"
 

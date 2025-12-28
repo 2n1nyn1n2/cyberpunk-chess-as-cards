@@ -27,6 +27,13 @@ func _ready():
 	var scene_background_rect = $Background
 	scene_background_rect.color = COLOR_OFF
 
+	var chess_font = load("res://fonts/OpenChessFont.ttf")
+	var scene_challenge_icon_label = $SceneChallengeIcon
+	if chess_font:
+		scene_challenge_icon_label.add_theme_font_override("font", chess_font)
+	else:
+		print("Error: Could not find font file at res://fonts/OpenChessFont.ttf")
+
 
 func update_ui():
 	var scene_image = $SceneImage

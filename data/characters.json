@@ -117,7 +117,7 @@
     {
       "name": "white_rook_on_a_white_tile",
       "description": "A white rook on a white tile",
-      "icon": "♖",
+      "icon": "R",
       "team": "white",
       "prompt": [
         "(yellow floor:2).",
@@ -142,7 +142,7 @@
     {
       "name": "white_rook_on_a_black_tile",
       "description": "A white rook on a black tile",
-      "icon": "♖",
+      "icon": "r",
       "team": "white",
       "prompt": [
         "(purple floor:2).",
