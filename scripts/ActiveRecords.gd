@@ -75,7 +75,7 @@ func get_random_png_resource_from_dir(path: String) -> Resource:
 					pngs.append(clean_name)
 
 		print("get_random_png_resource_from_dir pngs: ", pngs.size())
-		
+
 		if not pngs.is_empty():
 			var random_png = pngs.pick_random()
 			# load() works with the virtual res:// path automatically
