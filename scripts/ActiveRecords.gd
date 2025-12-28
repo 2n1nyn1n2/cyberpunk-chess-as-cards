@@ -56,12 +56,12 @@ func get_dictionary_record(path: String):
 func get_random_png_resource_from_dir(path: String) -> Resource:
 	var resource = null
 
-	# Use open() instead of dir_exists_absolute for web compatibility
 	var dir = DirAccess.open(path)
 
 	if dir:
 		var files = dir.get_files()
 		var pngs: Array[String] = []
+		print("get_random_png_resource_from_dir files: ", files.size())
 
 		for f in files:
 			# In exported projects (Web), .png files often show up as "image.png.import"
@@ -74,6 +74,8 @@ func get_random_png_resource_from_dir(path: String) -> Resource:
 				if not pngs.has(clean_name):
 					pngs.append(clean_name)
 
+		print("get_random_png_resource_from_dir pngs: ", pngs.size())
+		
 		if not pngs.is_empty():
 			var random_png = pngs.pick_random()
 			# load() works with the virtual res:// path automatically
