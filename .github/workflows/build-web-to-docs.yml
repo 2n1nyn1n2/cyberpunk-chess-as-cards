@@ -61,7 +61,7 @@ jobs:
       - name: Export Godot Project to Web
         run: |
           mkdir -p ./docs
-          ./godot/Godot_v4.5-stable_linux.x86_64 --headless --export-release "Web" ./docs/index.html
+          ./godot/Godot_v4.5-stable_linux.x86_64 --headless --export-debug "Web" ./docs/index.html
 
       - name: Create .nojekyll
         run: touch ./docs/.nojekyll
