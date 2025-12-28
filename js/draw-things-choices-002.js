@@ -21,7 +21,7 @@ const choiceData = {
       name: "white_king_on_a_white_tile_chooses_dagger",
       description: "A white king on a white tile chooses dagger",
       character_name: "white_king_on_a_white_tile",
-      icon: "♔",
+      icon: "K",
       team: "white",
       prompt: [
         "(yellow floor:2).",
@@ -39,7 +39,7 @@ const choiceData = {
       name: "white_king_on_a_black_tile_chooses_dagger",
       description: "A white king on a black tile chooses dagger",
       character_name: "white_king_on_a_black_tile",
-      icon: "♔",
+      icon: "k",
       team: "white",
       prompt: [
         "(purple floor:2).",
@@ -57,7 +57,7 @@ const choiceData = {
       name: "white_queen_on_a_white_tile_chooses_mace",
       description: "A white queen on a white tile chooses mace",
       character_name: "white_queen_on_a_white_tile",
-      icon: "♕",
+      icon: "Q",
       team: "white",
       prompt: [
         "(yellow floor:2).",
@@ -75,7 +75,7 @@ const choiceData = {
       name: "white_queen_on_a_black_tile_chooses_mace",
       description: "A white queen on a black tile chooses mace",
       character_name: "white_queen_on_a_black_tile",
-      icon: "♕",
+      icon: "q",
       team: "white",
       prompt: [
         "(purple floor:2).",
@@ -93,7 +93,7 @@ const choiceData = {
       name: "white_rook_on_a_white_tile_chooses_rc_helicopter",
       description: "A white rook on a white tile chooses rc helicopter",
       character_name: "white_rook_on_a_white_tile",
-      icon: "♖",
+      icon: "R",
       team: "white",
       prompt: [
         "(yellow floor:2).",
@@ -111,7 +111,7 @@ const choiceData = {
       name: "white_rook_on_a_black_tile_chooses_rc_helicopter",
       description: "A white rook on a black tile chooses rc helicopter",
       character_name: "white_rook_on_a_black_tile",
-      icon: "♖",
+      icon: "r",
       team: "white",
       prompt: [
         "(purple floor:2).",
@@ -129,7 +129,7 @@ const choiceData = {
       name: "white_bishop_on_a_white_tile_chooses_rpg7",
       description: "A white bishop on a white tile chooses rpg7",
       character_name: "white_bishop_on_a_white_tile",
-      icon: "♗",
+      icon: "B",
       team: "white",
       prompt: [
         "(yellow floor:2).",
@@ -147,7 +147,7 @@ const choiceData = {
       name: "white_bishop_on_a_black_tile_chooses_rpg7",
       description: "A white bishop on a black tile chooses rpg7",
       character_name: "white_bishop_on_a_black_tile",
-      icon: "♗",
+      icon: "b",
       team: "white",
       prompt: [
         "(purple floor:2).",
@@ -165,7 +165,7 @@ const choiceData = {
       name: "white_knight_on_a_white_tile_chooses_rc_car",
       description: "A white knight on a white tile chooses rc car",
       character_name: "white_knight_on_a_white_tile",
-      icon: "♘",
+      icon: "N",
       team: "white",
       prompt: [
         "(yellow floor:2).",
@@ -183,7 +183,7 @@ const choiceData = {
       name: "white_knight_on_a_black_tile_chooses_rc_car",
       description: "A white knight on a black tile chooses rc car",
       character_name: "white_knight_on_a_black_tile",
-      icon: "♘",
+      icon: "n",
       team: "white",
       prompt: [
         "(purple floor:2).",
@@ -201,7 +201,7 @@ const choiceData = {
       name: "white_pawn_on_a_white_tile_chooses_bullet",
       description: "A white pawn on a white tile chooses bullet",
       character_name: "white_pawn_on_a_white_tile",
-      icon: "♙",
+      icon: "P",
       team: "white",
       prompt: [
         "(yellow floor:2).",
@@ -219,7 +219,7 @@ const choiceData = {
       name: "white_pawn_on_a_black_tile_chooses_bullet",
       description: "A white pawn on a black tile chooses bullet",
       character_name: "white_pawn_on_a_black_tile",
-      icon: "♙",
+      icon: "p",
       team: "white",
       prompt: [
         "(purple floor:2).",
@@ -237,7 +237,7 @@ const choiceData = {
       name: "black_king_on_a_white_tile_chooses_dagger",
       description: "A black king on a white tile chooses dagger",
       character_name: "black_king_on_a_white_tile",
-      icon: "♔",
+      icon: "L",
       team: "black",
       prompt: [
         "(yellow floor:2).",
@@ -255,7 +255,7 @@ const choiceData = {
       name: "black_king_on_a_black_tile_chooses_dagger",
       description: "A black king on a black tile chooses dagger",
       character_name: "black_king_on_a_black_tile",
-      icon: "♔",
+      icon: "l",
       team: "black",
       prompt: [
         "(purple floor:2).",
@@ -273,7 +273,7 @@ const choiceData = {
       name: "black_queen_on_a_white_tile_chooses_mace",
       description: "A black queen on a white tile chooses mace",
       character_name: "black_queen_on_a_white_tile",
-      icon: "♕",
+      icon: "W",
       team: "black",
       prompt: [
         "(yellow floor:2).",
@@ -291,7 +291,7 @@ const choiceData = {
       name: "black_queen_on_a_black_tile_chooses_mace",
       description: "A black queen on a black tile chooses mace",
       character_name: "black_queen_on_a_black_tile",
-      icon: "♕",
+      icon: "w",
       team: "black",
       prompt: [
         "(purple floor:2).",
@@ -309,7 +309,7 @@ const choiceData = {
       name: "black_rook_on_a_white_tile_chooses_rc_helicopter",
       description: "A black rook on a white tile chooses rc helicopter",
       character_name: "black_rook_on_a_white_tile",
-      icon: "♖",
+      icon: "T",
       team: "black",
       prompt: [
         "(yellow floor:2).",
@@ -327,7 +327,7 @@ const choiceData = {
       name: "black_rook_on_a_black_tile_chooses_rc_helicopter",
       description: "A black rook on a black tile chooses rc helicopter",
       character_name: "black_rook_on_a_black_tile",
-      icon: "♖",
+      icon: "t",
       team: "black",
       prompt: [
         "(purple floor:2).",
@@ -345,7 +345,7 @@ const choiceData = {
       name: "black_bishop_on_a_white_tile_chooses_rpg7",
       description: "A black bishop on a white tile chooses rpg7",
       character_name: "black_bishop_on_a_white_tile",
-      icon: "♗",
+      icon: "V",
       team: "black",
       prompt: [
         "(yellow floor:2).",
@@ -363,7 +363,7 @@ const choiceData = {
       name: "black_bishop_on_a_black_tile_chooses_rpg7",
       description: "A black bishop on a black tile chooses rpg7",
       character_name: "black_bishop_on_a_black_tile",
-      icon: "♗",
+      icon: "v",
       team: "black",
       prompt: [
         "(purple floor:2).",
@@ -381,7 +381,7 @@ const choiceData = {
       name: "black_knight_on_a_white_tile_chooses_rc_car",
       description: "A black knight on a white tile chooses rc car",
       character_name: "black_knight_on_a_white_tile",
-      icon: "♘",
+      icon: "M",
       team: "black",
       prompt: [
         "(yellow floor:2).",
@@ -399,7 +399,7 @@ const choiceData = {
       name: "black_knight_on_a_black_tile_chooses_rc_car",
       description: "A black knight on a black tile chooses rc car",
       character_name: "black_knight_on_a_black_tile",
-      icon: "♘",
+      icon: "m",
       team: "black",
       prompt: [
         "(purple floor:2).",
@@ -417,7 +417,7 @@ const choiceData = {
       name: "black_pawn_on_a_white_tile_chooses_bullet",
       description: "A black pawn on a white tile chooses bullet",
       character_name: "black_pawn_on_a_white_tile",
-      icon: "♙",
+      icon: "O",
       team: "black",
       prompt: [
         "(yellow floor:2).",
@@ -435,7 +435,7 @@ const choiceData = {
       name: "black_pawn_on_a_black_tile_chooses_bullet",
       description: "A black pawn on a black tile chooses bullet",
       character_name: "black_pawn_on_a_black_tile",
-      icon: "♙",
+      icon: "o",
       team: "black",
       prompt: [
         "(purple floor:2).",

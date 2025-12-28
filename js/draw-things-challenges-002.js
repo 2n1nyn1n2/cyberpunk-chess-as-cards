@@ -20,7 +20,7 @@ const challengeData = {
     {
       name: "white_king_on_a_white_tile",
       description: "A white king on a white tile",
-      icon: "♔",
+      icon: "K",
       team: "white",
       prompt: [
         "(yellow floor:2).",
@@ -35,7 +35,7 @@ const challengeData = {
     {
       name: "white_king_on_a_black_tile",
       description: "A white king on a black tile",
-      icon: "♔",
+      icon: "k",
       team: "white",
       prompt: [
         "(purple floor:2).",
@@ -50,7 +50,7 @@ const challengeData = {
     {
       name: "white_queen_on_a_white_tile",
       description: "A white queen on a white tile",
-      icon: "♕",
+      icon: "Q",
       team: "white",
       prompt: [
         "(yellow floor:2).",
@@ -65,7 +65,7 @@ const challengeData = {
     {
       name: "white_queen_on_a_black_tile",
       description: "A white queen on a black tile",
-      icon: "♕",
+      icon: "q",
       team: "white",
       prompt: [
         "(purple floor:2).",
@@ -80,7 +80,7 @@ const challengeData = {
     {
       name: "white_rook_on_a_white_tile",
       description: "A white rook on a white tile",
-      icon: "♖",
+      icon: "R",
       team: "white",
       prompt: [
         "(yellow floor:2).",
@@ -95,7 +95,7 @@ const challengeData = {
     {
       name: "white_rook_on_a_black_tile",
       description: "A white rook on a black tile",
-      icon: "♖",
+      icon: "r",
       team: "white",
       prompt: [
         "(purple floor:2).",
@@ -110,7 +110,7 @@ const challengeData = {
     {
       name: "white_bishop_on_a_white_tile",
       description: "A white bishop on a white tile",
-      icon: "♗",
+      icon: "B",
       team: "white",
       prompt: [
         "(yellow floor:2).",
@@ -125,7 +125,7 @@ const challengeData = {
     {
       name: "white_bishop_on_a_black_tile",
       description: "A white bishop on a black tile",
-      icon: "♗",
+      icon: "b",
       team: "white",
       prompt: [
         "(purple floor:2).",
@@ -140,7 +140,7 @@ const challengeData = {
     {
       name: "white_knight_on_a_white_tile",
       description: "A white knight on a white tile",
-      icon: "♘",
+      icon: "N",
       team: "white",
       prompt: [
         "(yellow floor:2).",
@@ -155,7 +155,7 @@ const challengeData = {
     {
       name: "white_knight_on_a_black_tile",
       description: "A white knight on a black tile",
-      icon: "♘",
+      icon: "n",
       team: "white",
       prompt: [
         "(purple floor:2).",
@@ -170,7 +170,7 @@ const challengeData = {
     {
       name: "white_pawn_on_a_white_tile",
       description: "A white pawn on a white tile",
-      icon: "♙",
+      icon: "P",
       team: "white",
       prompt: [
         "(yellow floor:2).",
@@ -185,7 +185,7 @@ const challengeData = {
     {
       name: "white_pawn_on_a_black_tile",
       description: "A white pawn on a black tile",
-      icon: "♙",
+      icon: "p",
       team: "white",
       prompt: [
         "(purple floor:2).",
@@ -200,7 +200,7 @@ const challengeData = {
     {
       name: "black_king_on_a_white_tile",
       description: "A black king on a white tile",
-      icon: "♔",
+      icon: "L",
       team: "black",
       prompt: [
         "(yellow floor:2).",
@@ -215,7 +215,7 @@ const challengeData = {
     {
       name: "black_king_on_a_black_tile",
       description: "A black king on a black tile",
-      icon: "♔",
+      icon: "l",
       team: "black",
       prompt: [
         "(purple floor:2).",
@@ -230,7 +230,7 @@ const challengeData = {
     {
       name: "black_queen_on_a_white_tile",
       description: "A black queen on a white tile",
-      icon: "♕",
+      icon: "W",
       team: "black",
       prompt: [
         "(yellow floor:2).",
@@ -245,7 +245,7 @@ const challengeData = {
     {
       name: "black_queen_on_a_black_tile",
       description: "A black queen on a black tile",
-      icon: "♕",
+      icon: "w",
       team: "black",
       prompt: [
         "(purple floor:2).",
@@ -260,7 +260,7 @@ const challengeData = {
     {
       name: "black_rook_on_a_white_tile",
       description: "A black rook on a white tile",
-      icon: "♖",
+      icon: "T",
       team: "black",
       prompt: [
         "(yellow floor:2).",
@@ -275,7 +275,7 @@ const challengeData = {
     {
       name: "black_rook_on_a_black_tile",
       description: "A black rook on a black tile",
-      icon: "♖",
+      icon: "t",
       team: "black",
       prompt: [
         "(purple floor:2).",
@@ -290,7 +290,7 @@ const challengeData = {
     {
       name: "black_bishop_on_a_white_tile",
       description: "A black bishop on a white tile",
-      icon: "♗",
+      icon: "V",
       team: "black",
       prompt: [
         "(yellow floor:2).",
@@ -305,7 +305,7 @@ const challengeData = {
     {
       name: "black_bishop_on_a_black_tile",
       description: "A black bishop on a black tile",
-      icon: "♗",
+      icon: "v",
       team: "black",
       prompt: [
         "(purple floor:2).",
@@ -320,7 +320,7 @@ const challengeData = {
     {
       name: "black_knight_on_a_white_tile",
       description: "A black knight on a white tile",
-      icon: "♘",
+      icon: "M",
       team: "black",
       prompt: [
         "(yellow floor:2).",
@@ -335,7 +335,7 @@ const challengeData = {
     {
       name: "black_knight_on_a_black_tile",
       description: "A black knight on a black tile",
-      icon: "♘",
+      icon: "m",
       team: "black",
       prompt: [
         "(purple floor:2).",
@@ -350,7 +350,7 @@ const challengeData = {
     {
       name: "black_pawn_on_a_white_tile",
       description: "A black pawn on a white tile",
-      icon: "♙",
+      icon: "O",
       team: "black",
       prompt: [
         "(yellow floor:2).",
@@ -365,7 +365,7 @@ const challengeData = {
     {
       name: "black_pawn_on_a_black_tile",
       description: "A black pawn on a black tile",
-      icon: "♙",
+      icon: "o",
       team: "black",
       prompt: [
         "(purple floor:2).",

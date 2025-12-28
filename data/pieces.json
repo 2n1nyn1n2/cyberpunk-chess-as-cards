@@ -23,7 +23,7 @@
   "pieces": [
     {
       "name": "king",
-      "icon": "♔",
+      "icon": { "white": "k", "black": "l" },
       "weapon": "dagger",
       "hand_item": "dagger",
       "projectile": "dagger",
@@ -35,7 +35,7 @@
     },
     {
       "name": "queen",
-      "icon": "♕",
+      "icon": { "white": "q", "black": "w" },
       "weapon": "mace",
       "hand_item": "mace",
       "projectile": "mace",
@@ -47,7 +47,7 @@
     },
     {
       "name": "rook",
-      "icon": "♖",
+      "icon": { "white": "r", "black": "t" },
       "weapon": "rc helicopter",
       "hand_item": "video game controller",
       "projectile": "rc helicopter",
@@ -60,7 +60,7 @@
     {
       "name": "bishop",
       "team": "white",
-      "icon": "♗",
+      "icon": { "white": "b", "black": "v" },
       "weapon": "rpg7",
       "hand_item": "radio",
       "projectile": "rpg7",
@@ -72,7 +72,7 @@
     },
     {
       "name": "knight",
-      "icon": "♘",
+      "icon": { "white": "n", "black": "m" },
       "weapon": "rc car",
       "hand_item": "controller",
       "projectile": "rc car",
@@ -84,7 +84,7 @@
     },
     {
       "name": "pawn",
-      "icon": "♙",
+      "icon": { "white": "p", "black": "o" },
       "weapon": "rifle",
       "hand_item": "rifle",
       "projectile": "bullet",

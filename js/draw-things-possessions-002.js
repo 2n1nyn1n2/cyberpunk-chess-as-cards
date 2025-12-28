@@ -22,7 +22,10 @@ const possessionData = {
       name: "white_king",
       description: "A white king",
       team: "white",
-      icon: "♔",
+      icon: {
+        white: "k",
+        black: "l",
+      },
       weapon: "dagger",
       projectile: "dagger",
       attacking_prompt: [
@@ -53,7 +56,10 @@ const possessionData = {
       name: "white_queen",
       description: "A white queen",
       team: "white",
-      icon: "♕",
+      icon: {
+        white: "q",
+        black: "w",
+      },
       weapon: "mace",
       projectile: "mace",
       attacking_prompt: [
@@ -84,7 +90,10 @@ const possessionData = {
       name: "white_rook",
       description: "A white rook",
       team: "white",
-      icon: "♖",
+      icon: {
+        white: "r",
+        black: "t",
+      },
       weapon: "rc helicopter",
       projectile: "rc helicopter",
       attacking_prompt: [
@@ -115,7 +124,10 @@ const possessionData = {
       name: "white_bishop",
       description: "A white bishop",
       team: "white",
-      icon: "♗",
+      icon: {
+        white: "b",
+        black: "v",
+      },
       weapon: "rpg7",
       projectile: "rpg7",
       attacking_prompt: [
@@ -146,7 +158,10 @@ const possessionData = {
       name: "white_knight",
       description: "A white knight",
       team: "white",
-      icon: "♘",
+      icon: {
+        white: "n",
+        black: "m",
+      },
       weapon: "rc car",
       projectile: "rc car",
       attacking_prompt: [
@@ -177,7 +192,10 @@ const possessionData = {
       name: "white_pawn",
       description: "A white pawn",
       team: "white",
-      icon: "♙",
+      icon: {
+        white: "p",
+        black: "o",
+      },
       weapon: "rifle",
       projectile: "bullet",
       attacking_prompt: [
@@ -208,7 +226,10 @@ const possessionData = {
       name: "black_king",
       description: "A black king",
       team: "black",
-      icon: "♔",
+      icon: {
+        white: "k",
+        black: "l",
+      },
       weapon: "dagger",
       projectile: "dagger",
       attacking_prompt: [
@@ -239,7 +260,10 @@ const possessionData = {
       name: "black_queen",
       description: "A black queen",
       team: "black",
-      icon: "♕",
+      icon: {
+        white: "q",
+        black: "w",
+      },
       weapon: "mace",
       projectile: "mace",
       attacking_prompt: [
@@ -270,7 +294,10 @@ const possessionData = {
       name: "black_rook",
       description: "A black rook",
       team: "black",
-      icon: "♖",
+      icon: {
+        white: "r",
+        black: "t",
+      },
       weapon: "rc helicopter",
       projectile: "rc helicopter",
       attacking_prompt: [
@@ -301,7 +328,10 @@ const possessionData = {
       name: "black_bishop",
       description: "A black bishop",
       team: "black",
-      icon: "♗",
+      icon: {
+        white: "b",
+        black: "v",
+      },
       weapon: "rpg7",
       projectile: "rpg7",
       attacking_prompt: [
@@ -332,7 +362,10 @@ const possessionData = {
       name: "black_knight",
       description: "A black knight",
       team: "black",
-      icon: "♘",
+      icon: {
+        white: "n",
+        black: "m",
+      },
       weapon: "rc car",
       projectile: "rc car",
       attacking_prompt: [
@@ -363,7 +396,10 @@ const possessionData = {
       name: "black_pawn",
       description: "A black pawn",
       team: "black",
-      icon: "♙",
+      icon: {
+        white: "p",
+        black: "o",
+      },
       weapon: "rifle",
       projectile: "bullet",
       attacking_prompt: [

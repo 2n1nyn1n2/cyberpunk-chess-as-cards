@@ -17,11 +17,13 @@ let challengesJsStr = fs.readFileSync(CHALLENGES_JS_TEMPLATE_FILE_PATH, "utf8");
 const tileData = [
   {
     name: "white_tile",
+    is_icon_uppercase: true,
     description: "white tile",
     prompt: ["(yellow floor:2)."],
   },
   {
     name: "black_tile",
+    is_icon_uppercase: false,
     description: "black tile",
     prompt: ["(purple floor:2)."],
   },
@@ -40,9 +42,12 @@ const challengeData = {
 for (const possession of possessionData.possessions) {
   const possessionName = possession.name;
   const posessionTeam = possession.team;
-  const possessionIcon = possession.icon;
   const possessionPrompt = possession.defending_prompt;
   for (const tile of tileData) {
+    let possessionIcon = possession.icon[posessionTeam];
+    if (tile.is_icon_uppercase) {
+      possessionIcon = possessionIcon.toUpperCase();
+    }
     const tileName = tile.name;
     const tilePrompt = tile.prompt;
     const name = `${possessionName}_on_a_${tileName}`;
