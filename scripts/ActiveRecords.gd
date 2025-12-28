@@ -72,7 +72,7 @@ func get_random_png_resource_from_dir(path: String) -> Resource:
 
 			resource = load(path.path_join(random_png))
 
-	#print("get_random_png_resource_from_dir", "resource:", resource)
+	print("get_random_png_resource_from_dir path:", path, " resource:", resource)
 	return resource
 
 
