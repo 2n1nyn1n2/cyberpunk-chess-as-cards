@@ -19,7 +19,7 @@ export async function makeFilesSameSize(filePath) {
       .toBuffer();
 
     await writeFile(filePath, outputBuffer);
-    
+
     console.log(`✅ Processed: ${filePath}`);
   } catch (err) {
     console.error(`✘ Error processing ${filePath}:`, err.message);
@@ -28,10 +28,12 @@ export async function makeFilesSameSize(filePath) {
 }
 
 export async function makeAllFilesSameSize(dir, fileExtension) {
-  const ext = fileExtension.startsWith(".") ? fileExtension : `.${fileExtension}`;
-  
+  const ext = fileExtension.startsWith(".")
+    ? fileExtension
+    : `.${fileExtension}`;
+
   const pattern = path.join(dir, "**", `*${ext}`).replace(/\\/g, "/");
-  
+
   console.log(`🔍 Searching for ${ext} files in: ${dir}`);
 
   const filePaths = await glob(pattern, {

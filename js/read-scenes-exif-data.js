@@ -108,10 +108,7 @@ async function processDirectoryTree() {
     }
   }
 
-  await makeAllFilesSameSize(
-    path.join("assets", "scenes"),
-    fileExtension,
-  );
+  await makeAllFilesSameSize(path.join("assets", "scenes"), fileExtension);
 
   await exiftool.end();
   console.log("--- Processing Complete ---", results.length);

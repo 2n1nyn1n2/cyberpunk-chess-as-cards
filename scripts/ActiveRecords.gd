@@ -55,24 +55,31 @@ func get_dictionary_record(path: String):
 
 func get_random_png_resource_from_dir(path: String) -> Resource:
 	var resource = null
-	if DirAccess.dir_exists_absolute(path):
-		var files = DirAccess.get_files_at(path)
+
+	# Use open() instead of dir_exists_absolute for web compatibility
+	var dir = DirAccess.open(path)
+
+	if dir:
+		var files = dir.get_files()
 		var pngs: Array[String] = []
 
 		for f in files:
-			# Filter for scenes and handle exported .remap/.import extensions
-			if f.ends_with(".png"):
-				pngs.append(f)
+			# In exported projects (Web), .png files often show up as "image.png.import"
+			# We check for both original and imported versions
+			if f.ends_with(".png") or f.ends_with(".png.import"):
+				# Strip .import to get the actual resource path
+				var clean_name = f.replace(".import", "")
 
-		#print("get_random_png_resource_from_dir", "path:", path)
-		#print("get_random_png_resource_from_dir", "pngs:", pngs)
+				# Avoid duplicates in the array if both .png and .png.import exist
+				if not pngs.has(clean_name):
+					pngs.append(clean_name)
+
 		if not pngs.is_empty():
 			var random_png = pngs.pick_random()
-			#print("get_random_png_resource_from_dir", "random_png:", random_png)
-
+			# load() works with the virtual res:// path automatically
 			resource = load(path.path_join(random_png))
 
-	print("get_random_png_resource_from_dir path:", path, " resource:", resource)
+	print("get_random_png_resource_from_dir path: ", path, " resource: ", resource)
 	return resource
 
 
