@@ -42,8 +42,8 @@ async function convertJpgToPng(source, destination) {
 
 async function processDirectoryTree() {
   const fileExtension = ".png";
-  const jpgPath = path.join("assets", "new", "processed", "input");
-  const pngPath = path.join("assets", "new", "processed", "output");
+  const jpgPath = path.join("assets", "new", "input");
+  const pngPath = path.join("assets", "new", "output");
   await makeJpgsIntoPng(jpgPath, pngPath);
   await makeAllFilesSameSize(pngPath, fileExtension);
   await makeAllBackgroundsTransparent(pngPath, fileExtension, 25);
