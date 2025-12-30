@@ -63,7 +63,11 @@ export async function makeBackgroundTransparent(filePath, threshold = 10) {
   }
 }
 
-export async function makeAllBackgroundsTransparent(dir, fileExtension) {
+export async function makeAllBackgroundsTransparent(
+  dir,
+  fileExtension,
+  threshold = 10,
+) {
   console.log(`MakeAllBackgroundsTransparent '${dir}', '${fileExtension}'.`);
   const filePaths = await glob(`${dir}/**/*${fileExtension}`, {
     nodir: true,
@@ -72,7 +76,7 @@ export async function makeAllBackgroundsTransparent(dir, fileExtension) {
     `✅ MakeAllBackgroundsTransparent Found ${filePaths.length} file(s). Making Transparent...`,
   );
   for (const filePath of filePaths) {
-    await makeBackgroundTransparent(filePath);
+    await makeBackgroundTransparent(filePath, threshold);
   }
   console.log(
     `✅ MakeAllBackgroundsTransparent Processed ${filePaths.length} file(s).`,
