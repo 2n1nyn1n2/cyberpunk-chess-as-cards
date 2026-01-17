@@ -1,0 +1,30 @@
+[gd_scene load_steps=7 format=3 uid="uid://hfw6l3vomqtb"]
+
+[ext_resource type="Script" uid="uid://d2vn6kn7xb3s3" path="res://scripts/ChoiceSelection.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://bjvbrd04c32xc" path="res://tscns/Challenge.tscn" id="2_ioovj"]
+[ext_resource type="PackedScene" uid="uid://borg7m0ifaxu8" path="res://tscns/Background.tscn" id="4_qaf7h"]
+[ext_resource type="PackedScene" uid="uid://fburegxkwgnl" path="res://tscns/Character.tscn" id="4_x76o4"]
+[ext_resource type="PackedScene" uid="uid://crra53ceh8s73" path="res://tscns/CardSelection.tscn" id="5_flhjb"]
+[ext_resource type="PackedScene" uid="uid://bn2qq1maxv1o3" path="res://tscns/GreetingOverlay.tscn" id="6_u8rxy"]
+
+[node name="ChoiceSelection" type="Node"]
+script = ExtResource("1")
+
+[node name="Background" parent="." instance=ExtResource("4_qaf7h")]
+
+[node name="Challenge" parent="." instance=ExtResource("2_ioovj")]
+offset_left = 1536.0
+offset_top = 229.0
+offset_right = 1536.0
+offset_bottom = 229.0
+
+[node name="Character" parent="." instance=ExtResource("4_x76o4")]
+offset_top = 229.0
+offset_bottom = 229.0
+
+[node name="CardSelection" parent="." instance=ExtResource("5_flhjb")]
+
+[node name="GreetingOverlay" parent="." instance=ExtResource("6_u8rxy")]
+unique_name_in_owner = true
+scene_greeting_file = "res://data/greetings/choice.json"
+greeting_subtype = "choices"

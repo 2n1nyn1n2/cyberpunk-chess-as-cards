@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://dvmddytlm4qdp"]
+
+[ext_resource type="Script" uid="uid://dnmtmuooxbfhq" path="res://scripts/ChessBoard.gd" id="1_iudfe"]
+[ext_resource type="Script" uid="uid://brlccrm1twq0y" path="res://scripts/Possession.gd" id="3_1dh3a"]
+
+[node name="ChessBoard" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_iudfe")
+
+[node name="CapturedPieces" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Possessions" type="Control" parent="CapturedPieces"]
+unique_name_in_owner = true
+anchors_preset = 0
+offset_top = 1280.0
+offset_bottom = 1280.0
+script = ExtResource("3_1dh3a")
+
+[node name="BoardLocations" type="Control" parent="."]
+unique_name_in_owner = true
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0

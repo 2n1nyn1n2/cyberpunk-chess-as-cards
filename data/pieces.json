@@ -1,0 +1,98 @@
+{
+  "prompt": [
+    "(on a solid flat lime green background, isolated, flat lighting, overcast lighting, 2D flat color, no shadows:3)"
+  ],
+  "negative_prompt": [
+    "bare legs.",
+    "nudity.",
+    "shadows.",
+    "mutated, disfigured, deformed, malformed, extra limbs, extra fingers, too many limbs, missing limbs",
+    "bad anatomy, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame",
+    "blurry, blurred, watermark, grainy, signature, cut off, draft, too many feet.",
+    "cross-eyed, lazy eye, dilated pupils, unnatural eyes, cataract, blind, blurry eyes,",
+    "poorly drawn eyes, extra eyes, gross proportions, malformed eyelids, sunken eyes, dark circles, grainy eyes, red eyes, green eyes."
+  ],
+  "team_color_prompt": [
+    "The centerpiece of the image is the full body shot of a single person (wearing all {team color} clothes:2)",
+    "The style is cyberpunk noir. ",
+    "Futuristic.",
+    "realistic skin tones. natural colors."
+  ],
+  "team_colors": [
+    { "name": "white", "color": "yellow" },
+    { "name": "black", "color": "purple" }
+  ],
+  "pieces": [
+    {
+      "name": "king",
+      "icon": { "white_team": "k", "black_team": "l" },
+      "weapon": "sword",
+      "hand_item": "sword",
+      "projectile": "sword",
+      "defenses": "ornate forcefield",
+      "max": 1,
+      "description": [
+        "(king's crown:2), middle aged, male, pants, shirt, leather jacket with a hood, beard."
+      ]
+    },
+    {
+      "name": "queen",
+      "icon": { "white_team": "q", "black_team": "w" },
+      "weapon": "sceptre",
+      "hand_item": "sceptre",
+      "projectile": "sceptre",
+      "defenses": "pretty forcefield",
+      "max": 1,
+      "description": [
+        "(queen's crown:2), female, long dress, shirt, leather jacket."
+      ]
+    },
+    {
+      "name": "rook",
+      "icon": { "white_team": "r", "black_team": "t" },
+      "weapon": "rc quadcopter",
+      "hand_item": "video game controller",
+      "projectile": "rc quadcopter",
+      "defenses": "battlements",
+      "max": 2,
+      "description": [
+        "{male, pants|female, skirt, leggings}, shirt, soft cap, (sunglasses:2)"
+      ]
+    },
+    {
+      "name": "bishop",
+      "team": "white",
+      "icon": { "white_team": "b", "black_team": "v" },
+      "weapon": "rpg7",
+      "hand_item": "rpg7",
+      "projectile": "rpg7",
+      "defenses": "large cargo container",
+      "max": 2,
+      "description": [
+        "{male, pants|female, skirt, leggings}, shirt, (backpack:2)"
+      ]
+    },
+    {
+      "name": "knight",
+      "icon": { "white_team": "n", "black_team": "m" },
+      "weapon": "grenade",
+      "hand_item": "grenade",
+      "projectile": "grenade",
+      "defenses": "hedge",
+      "max": 2,
+      "description": [
+        "{male, pants|female, skirt, leggings}, shirt, (backpack with {team color} wings:2)"
+      ]
+    },
+    {
+      "name": "pawn",
+      "icon": { "white_team": "p", "black_team": "o" },
+      "weapon": "rifle",
+      "hand_item": "rifle",
+      "projectile": "bullet",
+      "defenses": "forcefield shield",
+      "max": 8,
+      "description": ["{male, pants|female, skirt, leggings}, shirt"]
+    }
+  ]
+}

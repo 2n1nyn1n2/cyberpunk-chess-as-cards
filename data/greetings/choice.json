@@ -1,0 +1,273 @@
+{
+  "greetings": [
+    {
+      "style": "Corporate Tactical HUD",
+      "choices": {
+        "King": {
+          "text": [
+            "Commander, the King unit is your primary asset and highest liability.",
+            "Visualizing Team Purple incursion paths toward the VIP."
+          ],
+          "request": ["Secure the defensive grid around your King."],
+          "button_text": "Confirm Aegis"
+        },
+        "Queen": {
+          "text": [
+            "Commander, your Queen is currently in high-output combat mode.",
+            "Lethal-range overlays show multiple Purple targets painted."
+          ],
+          "request": ["Authorize the Queen to initiate a full sweep."],
+          "button_text": "Engage"
+        },
+        "Bishop": {
+          "text": [
+            "Player, your Bishop units are holding long-range diagonal links.",
+            "Purple vulnerabilities are being broadcast via overwatch."
+          ],
+          "request": ["Utilize the Bishop to lock the sightline."],
+          "button_text": "Set Overwatch"
+        },
+        "Knight": {
+          "text": [
+            "Commander, the Knight unit has calculated its non-linear jump vectors.",
+            "Frontline bypass is available for immediate execution."
+          ],
+          "request": ["Deploy the Knight for tactical insertion."],
+          "button_text": "Launch Jump"
+        },
+        "Rook": {
+          "text": [
+            "Commander, the Rook asset provides your heavy shielding.",
+            "Vertical corridors are currently reinforced against Team Purple."
+          ],
+          "request": ["Commit the Rook to fortify the rank."],
+          "button_text": "Harden Line"
+        },
+        "Pawn": {
+          "text": [
+            "Player, your Pawn units are screening the initial advance.",
+            "Unit 1-1 is positioned to probe Team Purple territory."
+          ],
+          "request": ["Command the Pawn to hold the line."],
+          "button_text": "Set Screen"
+        }
+      }
+    },
+    {
+      "style": "Neural Link v4.0",
+      "choices": {
+        "King": {
+          "text": [
+            "User, the Yellow-Link is anchored to your King node.",
+            "Purple-Static is attempting to destabilize your core."
+          ],
+          "request": ["Synchronize with the King to stabilize the network."],
+          "button_text": "Sync Core"
+        },
+        "Queen": {
+          "text": [
+            "User, your Queen node possesses the widest synaptic reach.",
+            "She is currently mapping Team Purple’s cognitive intent."
+          ],
+          "request": ["Project a Neural Spike through your Queen."],
+          "button_text": "Spike"
+        },
+        "Bishop": {
+          "text": [
+            "User, your Bishop stream is filtering through the grid's gaps.",
+            "It is currently invisible to Team Purple’s diagonal sensors."
+          ],
+          "request": ["Focus your intent through the Bishop conduit."],
+          "button_text": "Project Stream"
+        },
+        "Knight": {
+          "text": [
+            "User, the Knight-Pulse is oscillating on a non-Euclidean frequency.",
+            "It can phase-shift past Purple’s firewall via anomalous vectors."
+          ],
+          "request": ["Authorize a synaptic leap to the target coordinate."],
+          "button_text": "Initiate Phase"
+        },
+        "Rook": {
+          "text": [
+            "User, the Rook-Buffer is stabilizing.",
+            "Vertical and horizontal data-streams are now reinforced against intrusion."
+          ],
+          "request": ["Lock the Rook-Buffer to secure the sector."],
+          "button_text": "Lock Buffer"
+        },
+        "Pawn": {
+          "text": [
+            "User, small-packet Pawn units are footprinting the Purple network.",
+            "Node 1-0 is ready for a logic-gate breach."
+          ],
+          "request": ["Advance the Pawn-packet to expand our bandwidth."],
+          "button_text": "Upload Packet"
+        }
+      }
+    },
+    {
+      "style": "Private Military Contractor",
+      "choices": {
+        "King": {
+          "text": [
+            "The High-Value Target (HVT) is vulnerable in the current sector.",
+            "Purple Team is closing in on the extraction point."
+          ],
+          "request": ["Reposition security detail to cover the HVT."],
+          "button_text": "Extract/Defend"
+        },
+        "Queen": {
+          "text": [
+            "The Asset is fully kitted and weapons-hot.",
+            "She’s got eyes on every sector and is cleared for hot-drops."
+          ],
+          "request": ["Authorize the Asset for a maximum-force engagement."],
+          "button_text": "Full Send"
+        },
+        "Bishop": {
+          "text": [
+            "Sniper teams are in position on the high-ground diagonals.",
+            "Purple’s movement is being tracked through the glass."
+          ],
+          "request": ["Give the Bishop team the green light to suppress."],
+          "button_text": "Take the Shot"
+        },
+        "Knight": {
+          "text": [
+            "Mobile Infantry is ready for a flanking maneuver.",
+            "Air-gap detected in Purple's perimeter; jump-in is viable."
+          ],
+          "request": ["Authorize the Knight for a high-mobility strike."],
+          "button_text": "Execute Flank"
+        },
+        "Rook": {
+          "text": [
+            "Heavy Armor is locked on the vertical axis.",
+            "The corridor is clear for a suppression run against Purple."
+          ],
+          "request": ["Roll the heavy armor into the fire lane."],
+          "button_text": "Deploy Armor"
+        },
+        "Pawn": {
+          "text": [
+            "Infantry grunts are holding the perimeter.",
+            "They're taking heat, but they're providing the necessary screen."
+          ],
+          "request": ["Order the infantry to push forward and draw fire."],
+          "button_text": "Advance Line"
+        }
+      }
+    },
+    {
+      "style": "Advanced Mainframe",
+      "choices": {
+        "King": {
+          "text": [
+            "The Root Directory is under potential threat.",
+            "System stability depends on the integrity of this coordinate."
+          ],
+          "request": ["Encrypt the Root Directory to prevent system crash."],
+          "button_text": "Run Encrypt.sh"
+        },
+        "Queen": {
+          "text": [
+            "The Prime Processor is operating at 98% efficiency.",
+            "Scanning Purple sub-routines for recursive logic errors."
+          ],
+          "request": ["Initiate a global sweep of the local grid."],
+          "button_text": "Run Global.exe"
+        },
+        "Bishop": {
+          "text": [
+            "Diagonal data-bus 04 is currently unencrypted.",
+            "Broadcasting signal interference toward Purple's logic gate."
+          ],
+          "request": ["Inject Bishop packet into the diagonal stream."],
+          "button_text": "Inject Packet"
+        },
+        "Knight": {
+          "text": [
+            "The Knight-Routine has bypassed the standard L1 cache.",
+            "It is executing an out-of-order instruction."
+          ],
+          "request": ["Execute Knight-Routine via secondary bus."],
+          "button_text": "Override Logic"
+        },
+        "Rook": {
+          "text": [
+            "Hardware Firewall 'Rook' is online.",
+            "I/O channels are being restricted to prevent Purple packet-sniffing."
+          ],
+          "request": ["Enable hardware-level restriction on this axis."],
+          "button_text": "Harden Port"
+        },
+        "Pawn": {
+          "text": [
+            "Bit-stream 1-0 is advancing to the next register.",
+            "Buffer-zone established to mitigate Purple's overflow."
+          ],
+          "request": ["Advance the bit to the next sector."],
+          "button_text": "Shift Bit"
+        }
+      }
+    },
+    {
+      "style": "Executive AI Assistant",
+      "choices": {
+        "King": {
+          "text": [
+            "Your Principal's safety is my primary directive.",
+            "I’ve identified several liabilities in the Purple Team's portfolio."
+          ],
+          "request": ["Would you like me to optimize the Principal's defense?"],
+          "button_text": "Approve Protocol"
+        },
+        "Queen": {
+          "text": [
+            "The Executive Director is your most versatile asset.",
+            "She is currently prepared to hostile-takeover the Purple sector."
+          ],
+          "request": ["Authorize the Director to finalize the merger?"],
+          "button_text": "Finalize"
+        },
+        "Bishop": {
+          "text": [
+            "Our Legal Consultants are reviewing the diagonal fine print.",
+            "They've found a loophole in Purple's strategy."
+          ],
+          "request": [
+            "Shall I instruct the Consultants to file the injunction?"
+          ],
+          "button_text": "File Motion"
+        },
+        "Knight": {
+          "text": [
+            "I've identified a non-linear opportunity for growth.",
+            "A tactical acquisition of Purple's territory is recommended."
+          ],
+          "request": ["Shall I initiate the Knight's market-entry maneuver?"],
+          "button_text": "Proceed"
+        },
+        "Rook": {
+          "text": [
+            "The Infrastructure Division has built a solid foundation.",
+            "Our vertical market share is currently untouchable."
+          ],
+          "request": [
+            "Would you like to consolidate our assets in this sector?"
+          ],
+          "button_text": "Consolidate"
+        },
+        "Pawn": {
+          "text": [
+            "Our Junior Associates are conducting preliminary market research.",
+            "They are currently acting as a first-line buffer."
+          ],
+          "request": ["Should the Associates proceed with the outreach?"],
+          "button_text": "Deploy Interns"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "greetings": [
+    {
+      "style": "Corporate Tactical HUD",
+      "text": [
+        "Yellow Division command initialized.",
+        "Targeting the Purple Syndicate. Your",
+        "previous simulations show a 94%",
+        "efficiency rating. Neutralize the",
+        "opposition, Director."
+      ],
+      "request": [
+        "Upload your opening strategy. Which",
+        "sector shall we secure first?"
+      ],
+      "button_text": "Confirm Engagement",
+      "ui_subtext": "Secure Line | Spectrum Warfare"
+    },
+    {
+      "style": "Neural Link v4.0",
+      "text": [
+        "Syncing to Amber-Cell. The Purple",
+        "Virus is expanding, but your neural",
+        "signature remains perfectly stable.",
+        "Let us begin the purge protocol."
+      ],
+      "request": [
+        "Initialize link. How would you like",
+        "to deploy our primary assets?"
+      ],
+      "button_text": "Establish Connection",
+      "ui_subtext": "User: Authorized | Faction: Yellow"
+    },
+    {
+      "style": "Private Military Contractor",
+      "text": [
+        "The Yellow-Jackets are ready. The",
+        "Purple Regiment thinks they own this",
+        "district, but they lack your elite",
+        "tactical background. Let's proceed."
+      ],
+      "request": [
+        "The unit is awaiting your signal.",
+        "Director, what is the first move?"
+      ],
+      "button_text": "Commence Operation",
+      "ui_subtext": "Contract Active | Stakes: High"
+    },
+    {
+      "style": "Advanced Mainframe",
+      "text": [
+        "Access granted. Team Yellow active.",
+        "Enemy Purple detected in Sector 8x8.",
+        "Your algorithms are optimal. Direct",
+        "the deletion protocol immediately."
+      ],
+      "request": [
+        "Input required. Please enter the",
+        "coordinates for the primary strike."
+      ],
+      "button_text": "Execute Protocol",
+      "ui_subtext": "Yellow OS | Optimized"
+    },
+    {
+      "style": "Executive AI Assistant",
+      "text": [
+        "Yellow Army is ready, Director.",
+        "Purple defense is formidable, but",
+        "your intuition remains our best asset.",
+        "I am ready to follow your lead."
+      ],
+      "request": [
+        "Authorize the opening sequence:",
+        "how shall we dismantle the enemy?"
+      ],
+      "button_text": "Begin Deployment",
+      "ui_subtext": "Sync: 98% | Standby Mode"
+    }
+  ]
+}

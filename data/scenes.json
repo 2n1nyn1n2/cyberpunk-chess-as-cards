@@ -1,0 +1,913 @@
+{
+  "scene_selection": [
+    {
+      "active": true,
+      "description": "Choose your move",
+      "name": "Chess Board",
+      "texture": "res://assets/scenes/starting-locations.png"
+    }
+  ],
+  "prompt": [
+    "The style is cyberpunk noir. ",
+    "Futuristic. ",
+    "The background is a ((foggy)), neutral, well lit, ((cyan background)), (((clear open skies with a few clouds)))"
+  ],
+  "scenes": [
+    {
+      "active": true,
+      "name": "a1",
+      "side": "White",
+      "piece": "Rook",
+      "markers": "Queen and Rook",
+      "terrain": "fortified mountains",
+      "description": "White's Queen's Rook starting square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is white fortified mountains"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "a2",
+      "side": "White",
+      "piece": "Pawn",
+      "markers": "Queen and Rook",
+      "terrain": "fortified hills",
+      "description": "White's Queen's Pawn's Pawn starting square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is white fortified hills"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "a3",
+      "side": "White",
+      "piece": "Rook",
+      "markers": "Queen and Rook",
+      "terrain": "farmland and villages",
+      "description": "White's Queen's Rook middle square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is white farmland and villages"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "a4",
+      "side": "White",
+      "piece": "Rook",
+      "markers": "Queen and Rook",
+      "terrain": "a river with a bridge",
+      "description": "White's Queen's Rook middle square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is white a river with a bridge"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "a5",
+      "side": "Black",
+      "piece": "Rook",
+      "markers": "Queen and Rook",
+      "terrain": "a river with a bridge",
+      "description": "Black's King's Rook middle square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is black a river with a bridge"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "a6",
+      "side": "Black",
+      "piece": "Rook",
+      "markers": "Queen and Rook",
+      "terrain": "farmland and villages",
+      "description": "Black's King's Rook middle square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is black farmland and villages"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "a7",
+      "side": "Black",
+      "piece": "Pawn",
+      "markers": "Queen and Rook",
+      "terrain": "fortified hills",
+      "description": "Black's King's Pawn's Pawn starting square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is black fortified hills"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "a8",
+      "side": "Black",
+      "piece": "Rook",
+      "markers": "Queen and Rook",
+      "terrain": "fortified mountains",
+      "description": "Black's King's Rook starting square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is black fortified mountains"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "b1",
+      "side": "White",
+      "piece": "Knight",
+      "markers": "Queen and Knight",
+      "terrain": "fortified mountains",
+      "description": "White's Queen's Knight starting square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is white fortified mountains"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "b2",
+      "side": "White",
+      "piece": "Pawn",
+      "markers": "Queen and Knight",
+      "terrain": "fortified hills",
+      "description": "White's Queen's Pawn's Pawn starting square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is white fortified hills"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "b3",
+      "side": "White",
+      "piece": "Knight",
+      "markers": "Queen and Knight",
+      "terrain": "farmland and villages",
+      "description": "White's Queen's Knight middle square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is white farmland and villages"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "b4",
+      "side": "White",
+      "piece": "Knight",
+      "markers": "Queen and Knight",
+      "terrain": "a river with a bridge",
+      "description": "White's Queen's Knight middle square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is white a river with a bridge"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "b5",
+      "side": "Black",
+      "piece": "Knight",
+      "markers": "Queen and Knight",
+      "terrain": "a river with a bridge",
+      "description": "Black's King's Knight middle square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is black a river with a bridge"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "b6",
+      "side": "Black",
+      "piece": "Knight",
+      "markers": "Queen and Knight",
+      "terrain": "farmland and villages",
+      "description": "Black's King's Knight middle square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is black farmland and villages"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "b7",
+      "side": "Black",
+      "piece": "Pawn",
+      "markers": "Queen and Knight",
+      "terrain": "fortified hills",
+      "description": "Black's King's Pawn's Pawn starting square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is black fortified hills"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "b8",
+      "side": "Black",
+      "piece": "Knight",
+      "markers": "Queen and Knight",
+      "terrain": "fortified mountains",
+      "description": "Black's King's Knight starting square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is black fortified mountains"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "c1",
+      "side": "White",
+      "piece": "Bishop",
+      "markers": "Queen and Bishop",
+      "terrain": "fortified mountains",
+      "description": "White's Queen's Bishop starting square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is white fortified mountains"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "c2",
+      "side": "White",
+      "piece": "Pawn",
+      "markers": "Queen and Bishop",
+      "terrain": "fortified hills",
+      "description": "White's Queen's Pawn's Pawn starting square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is white fortified hills"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "c3",
+      "side": "White",
+      "piece": "Bishop",
+      "markers": "Queen and Bishop",
+      "terrain": "farmland and villages",
+      "description": "White's Queen's Bishop middle square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is white farmland and villages"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "c4",
+      "side": "White",
+      "piece": "Bishop",
+      "markers": "Queen and Bishop",
+      "terrain": "a river with a bridge",
+      "description": "White's Queen's Bishop middle square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is white a river with a bridge"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "c5",
+      "side": "Black",
+      "piece": "Bishop",
+      "markers": "Queen and Bishop",
+      "terrain": "a river with a bridge",
+      "description": "Black's King's Bishop middle square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is black a river with a bridge"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "c6",
+      "side": "Black",
+      "piece": "Bishop",
+      "markers": "Queen and Bishop",
+      "terrain": "farmland and villages",
+      "description": "Black's King's Bishop middle square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is black farmland and villages"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "c7",
+      "side": "Black",
+      "piece": "Pawn",
+      "markers": "Queen and Bishop",
+      "terrain": "fortified hills",
+      "description": "Black's King's Pawn's Pawn starting square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is black fortified hills"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "c8",
+      "side": "Black",
+      "piece": "Bishop",
+      "markers": "Queen and Bishop",
+      "terrain": "fortified mountains",
+      "description": "Black's King's Bishop starting square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is black fortified mountains"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "d1",
+      "side": "White",
+      "piece": "Queen",
+      "markers": "Queen and Queen",
+      "terrain": "fortified mountains",
+      "description": "White's Queen's Queen starting square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is white fortified mountains"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "d2",
+      "side": "White",
+      "piece": "Pawn",
+      "markers": "Queen and Queen",
+      "terrain": "fortified hills",
+      "description": "White's Queen's Pawn's Pawn starting square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is white fortified hills"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "d3",
+      "side": "White",
+      "piece": "Queen",
+      "markers": "Queen and Queen",
+      "terrain": "farmland and villages",
+      "description": "White's Queen's Queen middle square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is white farmland and villages"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "d4",
+      "side": "White",
+      "piece": "Queen",
+      "markers": "Queen and Queen",
+      "terrain": "a river with a bridge",
+      "description": "White's Queen's Queen middle square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is white a river with a bridge"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "d5",
+      "side": "Black",
+      "piece": "King",
+      "markers": "Queen and Queen",
+      "terrain": "a river with a bridge",
+      "description": "Black's King's King middle square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is black a river with a bridge"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "d6",
+      "side": "Black",
+      "piece": "King",
+      "markers": "Queen and Queen",
+      "terrain": "farmland and villages",
+      "description": "Black's King's King middle square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is black farmland and villages"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "d7",
+      "side": "Black",
+      "piece": "Pawn",
+      "markers": "Queen and Queen",
+      "terrain": "fortified hills",
+      "description": "Black's King's Pawn's Pawn starting square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is black fortified hills"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "d8",
+      "side": "Black",
+      "piece": "King",
+      "markers": "Queen and Queen",
+      "terrain": "fortified mountains",
+      "description": "Black's King's King starting square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is black fortified mountains"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "e1",
+      "side": "White",
+      "piece": "King",
+      "markers": "King and King",
+      "terrain": "fortified mountains",
+      "description": "White's King's King starting square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is white fortified mountains"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "e2",
+      "side": "White",
+      "piece": "Pawn",
+      "markers": "King and King",
+      "terrain": "fortified hills",
+      "description": "White's King's Pawn's Pawn starting square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is white fortified hills"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "e3",
+      "side": "White",
+      "piece": "King",
+      "markers": "King and King",
+      "terrain": "farmland and villages",
+      "description": "White's King's King middle square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is white farmland and villages"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "e4",
+      "side": "White",
+      "piece": "King",
+      "markers": "King and King",
+      "terrain": "a river with a bridge",
+      "description": "White's King's King middle square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is white a river with a bridge"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "e5",
+      "side": "Black",
+      "piece": "Queen",
+      "markers": "King and King",
+      "terrain": "a river with a bridge",
+      "description": "Black's Queen's Queen middle square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is black a river with a bridge"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "e6",
+      "side": "Black",
+      "piece": "Queen",
+      "markers": "King and King",
+      "terrain": "farmland and villages",
+      "description": "Black's Queen's Queen middle square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is black farmland and villages"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "e7",
+      "side": "Black",
+      "piece": "Pawn",
+      "markers": "King and King",
+      "terrain": "fortified hills",
+      "description": "Black's Queen's Pawn's Pawn starting square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is black fortified hills"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "e8",
+      "side": "Black",
+      "piece": "Queen",
+      "markers": "King and King",
+      "terrain": "fortified mountains",
+      "description": "Black's Queen's Queen starting square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is black fortified mountains"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "f1",
+      "side": "White",
+      "piece": "Bishop",
+      "markers": "King and Bishop",
+      "terrain": "fortified mountains",
+      "description": "White's King's Bishop starting square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is white fortified mountains"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "f2",
+      "side": "White",
+      "piece": "Pawn",
+      "markers": "King and Bishop",
+      "terrain": "fortified hills",
+      "description": "White's King's Pawn's Pawn starting square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is white fortified hills"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "f3",
+      "side": "White",
+      "piece": "Bishop",
+      "markers": "King and Bishop",
+      "terrain": "farmland and villages",
+      "description": "White's King's Bishop middle square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is white farmland and villages"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "f4",
+      "side": "White",
+      "piece": "Bishop",
+      "markers": "King and Bishop",
+      "terrain": "a river with a bridge",
+      "description": "White's King's Bishop middle square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is white a river with a bridge"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "f5",
+      "side": "Black",
+      "piece": "Bishop",
+      "markers": "King and Bishop",
+      "terrain": "a river with a bridge",
+      "description": "Black's Queen's Bishop middle square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is black a river with a bridge"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "f6",
+      "side": "Black",
+      "piece": "Bishop",
+      "markers": "King and Bishop",
+      "terrain": "farmland and villages",
+      "description": "Black's Queen's Bishop middle square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is black farmland and villages"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "f7",
+      "side": "Black",
+      "piece": "Pawn",
+      "markers": "King and Bishop",
+      "terrain": "fortified hills",
+      "description": "Black's Queen's Pawn's Pawn starting square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is black fortified hills"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "f8",
+      "side": "Black",
+      "piece": "Bishop",
+      "markers": "King and Bishop",
+      "terrain": "fortified mountains",
+      "description": "Black's Queen's Bishop starting square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is black fortified mountains"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "g1",
+      "side": "White",
+      "piece": "Knight",
+      "markers": "King and Knight",
+      "terrain": "fortified mountains",
+      "description": "White's King's Knight starting square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is white fortified mountains"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "g2",
+      "side": "White",
+      "piece": "Pawn",
+      "markers": "King and Knight",
+      "terrain": "fortified hills",
+      "description": "White's King's Pawn's Pawn starting square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is white fortified hills"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "g3",
+      "side": "White",
+      "piece": "Knight",
+      "markers": "King and Knight",
+      "terrain": "farmland and villages",
+      "description": "White's King's Knight middle square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is white farmland and villages"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "g4",
+      "side": "White",
+      "piece": "Knight",
+      "markers": "King and Knight",
+      "terrain": "a river with a bridge",
+      "description": "White's King's Knight middle square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is white a river with a bridge"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "g5",
+      "side": "Black",
+      "piece": "Knight",
+      "markers": "King and Knight",
+      "terrain": "a river with a bridge",
+      "description": "Black's Queen's Knight middle square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is black a river with a bridge"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "g6",
+      "side": "Black",
+      "piece": "Knight",
+      "markers": "King and Knight",
+      "terrain": "farmland and villages",
+      "description": "Black's Queen's Knight middle square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is black farmland and villages"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "g7",
+      "side": "Black",
+      "piece": "Pawn",
+      "markers": "King and Knight",
+      "terrain": "fortified hills",
+      "description": "Black's Queen's Pawn's Pawn starting square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is black fortified hills"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "g8",
+      "side": "Black",
+      "piece": "Knight",
+      "markers": "King and Knight",
+      "terrain": "fortified mountains",
+      "description": "Black's Queen's Knight starting square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is black fortified mountains"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "h1",
+      "side": "White",
+      "piece": "Rook",
+      "markers": "King and Rook",
+      "terrain": "fortified mountains",
+      "description": "White's King's Rook starting square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is white fortified mountains"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "h2",
+      "side": "White",
+      "piece": "Pawn",
+      "markers": "King and Rook",
+      "terrain": "fortified hills",
+      "description": "White's King's Pawn's Pawn starting square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is white fortified hills"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "h3",
+      "side": "White",
+      "piece": "Rook",
+      "markers": "King and Rook",
+      "terrain": "farmland and villages",
+      "description": "White's King's Rook middle square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is white farmland and villages"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "h4",
+      "side": "White",
+      "piece": "Rook",
+      "markers": "King and Rook",
+      "terrain": "a river with a bridge",
+      "description": "White's King's Rook middle square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is white a river with a bridge"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "h5",
+      "side": "Black",
+      "piece": "Rook",
+      "markers": "King and Rook",
+      "terrain": "a river with a bridge",
+      "description": "Black's Queen's Rook middle square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is black a river with a bridge"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "h6",
+      "side": "Black",
+      "piece": "Rook",
+      "markers": "King and Rook",
+      "terrain": "farmland and villages",
+      "description": "Black's Queen's Rook middle square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is black farmland and villages"
+      ],
+      "tile": "black_tile"
+    },
+    {
+      "active": true,
+      "name": "h7",
+      "side": "Black",
+      "piece": "Pawn",
+      "markers": "King and Rook",
+      "terrain": "fortified hills",
+      "description": "Black's Queen's Pawn's Pawn starting square",
+      "prompt": [
+        "The scene contains a large {yellow} square tile on the floor.",
+        "The surrounding terrain is black fortified hills"
+      ],
+      "tile": "white_tile"
+    },
+    {
+      "active": true,
+      "name": "h8",
+      "side": "Black",
+      "piece": "Rook",
+      "markers": "King and Rook",
+      "terrain": "fortified mountains",
+      "description": "Black's Queen's Rook starting square",
+      "prompt": [
+        "The scene contains a large {purple} square tile on the floor.",
+        "The surrounding terrain is black fortified mountains"
+      ],
+      "tile": "black_tile"
+    }
+  ]
+}

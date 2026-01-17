@@ -1,0 +1,63 @@
+[gd_scene load_steps=4 format=3 uid="uid://bn2qq1maxv1o3"]
+
+[ext_resource type="Script" uid="uid://dicfebahigisa" path="res://scripts/GreetingOverlay.gd" id="1_suk3n"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_326wi"]
+bg_color = Color(1, 1, 1, 1)
+border_width_left = 8
+border_width_top = 8
+border_width_right = 8
+border_width_bottom = 8
+border_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_suk3n"]
+bg_color = Color(1, 1, 1, 1)
+
+[node name="GreetingOverlay" type="Node2D"]
+script = ExtResource("1_suk3n")
+
+[node name="GreetingOverlay" type="CanvasLayer" parent="."]
+unique_name_in_owner = true
+
+[node name="GreetingOverlayUI" type="MarginContainer" parent="GreetingOverlay"]
+unique_name_in_owner = true
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_right = 100
+
+[node name="GreetingContainer" type="PanelContainer" parent="GreetingOverlay/GreetingOverlayUI"]
+layout_mode = 2
+size_flags_vertical = 4
+theme_override_styles/panel = SubResource("StyleBoxFlat_326wi")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GreetingOverlay/GreetingOverlayUI/GreetingContainer"]
+layout_mode = 2
+
+[node name="GreetingTitle" type="Label" parent="GreetingOverlay/GreetingOverlayUI/GreetingContainer/VBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(400, 120)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_styles/normal = SubResource("StyleBoxFlat_suk3n")
+text = "Greetings!"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="HSeparator" type="HSeparator" parent="GreetingOverlay/GreetingOverlayUI/GreetingContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="GreetingLabel" type="Label" parent="GreetingOverlay/GreetingOverlayUI/GreetingContainer/VBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(400, 120)
+layout_mode = 2
+text = "Your long text will wrap here and expand the box height automatically."
+autowrap_mode = 3
+
+[node name="GreetingCloseButton" type="Button" parent="GreetingOverlay/GreetingOverlayUI/GreetingContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 4
+text = "Continue"
