@@ -1,0 +1,26 @@
+negative prompt:
+	text, objects, buildings, armor, extra people
+
+Loading Screen:341782112
+	The style is cyberpunk noir. 
+	Futuristic. 
+	The background is a ((foggy)), neutral, well lit, cyan background, (((empty room)))
+	realistic skin tones. natural colors.
+	A man, (king's crown:2), middle aged, male, pants, shirt, leather jacket with a hood, beard (wearing all yellow clothes:2), on the left.
+	A man (king's crown:2), middle aged, male, pants, shirt, leather jacket with a hood, beard (wearing all purple clothes:2), on the right.
+	The man on the left is handing a blank envelope to the man on the right.
+
+	white chess king in the background on the left.
+	black chess king in the background on the right.
+
+posessions:1253287405
+	The style is cyberpunk noir. 
+	Futuristic. 
+	The background is a ((foggy)), neutral, well lit, cyan background, (((empty room)))
+	The centerpiece of the image is the full body shot of a single person.
+	That person is a {purple|yellow} {male|female} {wearing a crown | base commander | wearing a bishops hat | infantry commander | infantry soldier}.
+	The face is well lit and visible. 
+	The face looks happy. 
+	The face and body looks healthy. 
+	The person is dressed formally. the person wears clothes with ((cyan highlights)).
+	The person is standing on a large {purple|yellow} square.

@@ -1,0 +1,68 @@
+[gd_scene load_steps=7 format=3 uid="uid://dali5antiapcc"]
+
+[ext_resource type="Script" uid="uid://brlccrm1twq0y" path="res://scripts/Possession.gd" id="1_q5b0n"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q5b0n"]
+bg_color = Color(1, 1, 1, 0.501961)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0, 0, 0, 1)
+
+[sub_resource type="SystemFont" id="SystemFont_q5b0n"]
+subpixel_positioning = 0
+
+[sub_resource type="LabelSettings" id="LabelSettings_2mdnw"]
+font = SubResource("SystemFont_q5b0n")
+font_size = 12
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="SystemFont" id="SystemFont_8awgg"]
+subpixel_positioning = 0
+
+[sub_resource type="LabelSettings" id="LabelSettings_vbjie"]
+font = SubResource("SystemFont_8awgg")
+font_size = 12
+font_color = Color(0, 0, 0, 1)
+
+[node name="Possession" type="Control"]
+custom_minimum_size = Vector2(128, 128)
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_q5b0n")
+
+[node name="Background" type="Panel" parent="."]
+custom_minimum_size = Vector2(128, 128)
+layout_mode = 0
+theme_override_styles/panel = SubResource("StyleBoxFlat_q5b0n")
+
+[node name="PossessionImage" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 29.0
+offset_top = 1.0
+offset_right = 99.0
+offset_bottom = 93.0
+expand_mode = 1
+stretch_mode = 5
+
+[node name="PossessionName" type="Label" parent="."]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 93.0
+offset_right = 127.0
+offset_bottom = 110.0
+text = "Item Name"
+label_settings = SubResource("LabelSettings_2mdnw")
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="PossessionCount" type="Label" parent="."]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 110.0
+offset_right = 127.0
+offset_bottom = 127.0
+text = "x1"
+label_settings = SubResource("LabelSettings_vbjie")
+horizontal_alignment = 1

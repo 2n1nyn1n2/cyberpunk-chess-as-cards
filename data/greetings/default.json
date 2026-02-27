@@ -1,0 +1,10 @@
+{
+  "greetings": [
+    {
+      "style": "Default",
+      "text": ["Greetings"],
+      "request": [],
+      "button_text": "Confirm "
+    }
+  ]
+}

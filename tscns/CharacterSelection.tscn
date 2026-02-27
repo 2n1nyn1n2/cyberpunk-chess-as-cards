@@ -1,0 +1,22 @@
+[gd_scene load_steps=6 format=3 uid="uid://d3yqgy1nhsb0x"]
+
+[ext_resource type="Script" uid="uid://c6gjcxfotqp54" path="res://scripts/CharacterSelection.gd" id="1_o6o0h"]
+[ext_resource type="PackedScene" uid="uid://borg7m0ifaxu8" path="res://tscns/Background.tscn" id="2_ta0h7"]
+[ext_resource type="PackedScene" uid="uid://fburegxkwgnl" path="res://tscns/Character.tscn" id="3_gf4vd"]
+[ext_resource type="PackedScene" uid="uid://crra53ceh8s73" path="res://tscns/CardSelection.tscn" id="4_hcs3v"]
+[ext_resource type="PackedScene" uid="uid://bn2qq1maxv1o3" path="res://tscns/GreetingOverlay.tscn" id="5_gopkm"]
+
+[node name="CharacterSelection" type="Node"]
+script = ExtResource("1_o6o0h")
+
+[node name="Background" parent="." instance=ExtResource("2_ta0h7")]
+
+[node name="Character" parent="." instance=ExtResource("3_gf4vd")]
+visible = false
+
+[node name="CardSelection" parent="." instance=ExtResource("4_hcs3v")]
+
+[node name="GreetingOverlay" parent="." instance=ExtResource("5_gopkm")]
+unique_name_in_owner = true
+scene_greeting_file = "res://data/greetings/character.json"
+greeting_subtype = "pieces"

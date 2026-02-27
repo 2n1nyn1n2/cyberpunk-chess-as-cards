@@ -1,0 +1,497 @@
+{
+  "prompt": [
+    "(on a solid flat lime green background, isolated, flat lighting, overcast lighting, 2D flat color, no shadows:3)"
+  ],
+  "negative_prompt": [
+    "bare legs.",
+    "nudity.",
+    "shadows.",
+    "mutated, disfigured, deformed, malformed, extra limbs, extra fingers, too many limbs, missing limbs",
+    "bad anatomy, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame",
+    "blurry, blurred, watermark, grainy, signature, cut off, draft, too many feet.",
+    "cross-eyed, lazy eye, dilated pupils, unnatural eyes, cataract, blind, blurry eyes,",
+    "poorly drawn eyes, extra eyes, gross proportions, malformed eyelids, sunken eyes, dark circles, grainy eyes, red eyes, green eyes."
+  ],
+  "challenges": [
+    {
+      "name": "white_king_on_a_white_tile",
+      "description": "A white king on a white tile",
+      "icon": "K",
+      "team": "white",
+      "prompt": [
+        "(yellow tile floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "The style is cyberpunk noir. ",
+        "Futuristic.",
+        "realistic skin tones. natural colors.",
+        "(king's crown:2), middle aged, male, pants, shirt, leather jacket with a hood, beard.",
+        "defending. (crouching behind yellow ornate forcefield:2)",
+        "white chess king in the background.",
+        "(yellow ornate forcefield in the foreground:2)"
+      ],
+      "tile": "white_tile",
+      "possession": "white_king"
+    },
+    {
+      "name": "white_king_on_a_black_tile",
+      "description": "A white king on a black tile",
+      "icon": "k",
+      "team": "white",
+      "prompt": [
+        "(purple tile floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "The style is cyberpunk noir. ",
+        "Futuristic.",
+        "realistic skin tones. natural colors.",
+        "(king's crown:2), middle aged, male, pants, shirt, leather jacket with a hood, beard.",
+        "defending. (crouching behind yellow ornate forcefield:2)",
+        "white chess king in the background.",
+        "(yellow ornate forcefield in the foreground:2)"
+      ],
+      "tile": "black_tile",
+      "possession": "white_king"
+    },
+    {
+      "name": "white_queen_on_a_white_tile",
+      "description": "A white queen on a white tile",
+      "icon": "Q",
+      "team": "white",
+      "prompt": [
+        "(yellow tile floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "The style is cyberpunk noir. ",
+        "Futuristic.",
+        "realistic skin tones. natural colors.",
+        "(queen's crown:2), female, long dress, shirt, leather jacket.",
+        "defending. (crouching behind yellow pretty forcefield:2)",
+        "white chess queen in the background.",
+        "(yellow pretty forcefield in the foreground:2)"
+      ],
+      "tile": "white_tile",
+      "possession": "white_queen"
+    },
+    {
+      "name": "white_queen_on_a_black_tile",
+      "description": "A white queen on a black tile",
+      "icon": "q",
+      "team": "white",
+      "prompt": [
+        "(purple tile floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "The style is cyberpunk noir. ",
+        "Futuristic.",
+        "realistic skin tones. natural colors.",
+        "(queen's crown:2), female, long dress, shirt, leather jacket.",
+        "defending. (crouching behind yellow pretty forcefield:2)",
+        "white chess queen in the background.",
+        "(yellow pretty forcefield in the foreground:2)"
+      ],
+      "tile": "black_tile",
+      "possession": "white_queen"
+    },
+    {
+      "name": "white_rook_on_a_white_tile",
+      "description": "A white rook on a white tile",
+      "icon": "R",
+      "team": "white",
+      "prompt": [
+        "(yellow tile floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "The style is cyberpunk noir. ",
+        "Futuristic.",
+        "realistic skin tones. natural colors.",
+        "{male, pants|female, skirt, leggings}, shirt, soft cap, (sunglasses:2)",
+        "defending. (crouching behind yellow battlements:2)",
+        "white chess rook in the background.",
+        "(yellow battlements in the foreground:2)"
+      ],
+      "tile": "white_tile",
+      "possession": "white_rook"
+    },
+    {
+      "name": "white_rook_on_a_black_tile",
+      "description": "A white rook on a black tile",
+      "icon": "r",
+      "team": "white",
+      "prompt": [
+        "(purple tile floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "The style is cyberpunk noir. ",
+        "Futuristic.",
+        "realistic skin tones. natural colors.",
+        "{male, pants|female, skirt, leggings}, shirt, soft cap, (sunglasses:2)",
+        "defending. (crouching behind yellow battlements:2)",
+        "white chess rook in the background.",
+        "(yellow battlements in the foreground:2)"
+      ],
+      "tile": "black_tile",
+      "possession": "white_rook"
+    },
+    {
+      "name": "white_bishop_on_a_white_tile",
+      "description": "A white bishop on a white tile",
+      "icon": "B",
+      "team": "white",
+      "prompt": [
+        "(yellow tile floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "The style is cyberpunk noir. ",
+        "Futuristic.",
+        "realistic skin tones. natural colors.",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack:2)",
+        "defending. (crouching behind yellow large cargo container:2)",
+        "white chess bishop in the background.",
+        "(yellow large cargo container in the foreground:2)"
+      ],
+      "tile": "white_tile",
+      "possession": "white_bishop"
+    },
+    {
+      "name": "white_bishop_on_a_black_tile",
+      "description": "A white bishop on a black tile",
+      "icon": "b",
+      "team": "white",
+      "prompt": [
+        "(purple tile floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "The style is cyberpunk noir. ",
+        "Futuristic.",
+        "realistic skin tones. natural colors.",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack:2)",
+        "defending. (crouching behind yellow large cargo container:2)",
+        "white chess bishop in the background.",
+        "(yellow large cargo container in the foreground:2)"
+      ],
+      "tile": "black_tile",
+      "possession": "white_bishop"
+    },
+    {
+      "name": "white_knight_on_a_white_tile",
+      "description": "A white knight on a white tile",
+      "icon": "N",
+      "team": "white",
+      "prompt": [
+        "(yellow tile floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "The style is cyberpunk noir. ",
+        "Futuristic.",
+        "realistic skin tones. natural colors.",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack with {yellow} wings:2)",
+        "defending. (crouching behind yellow hedge:2)",
+        "white chess knight in the background.",
+        "(yellow hedge in the foreground:2)"
+      ],
+      "tile": "white_tile",
+      "possession": "white_knight"
+    },
+    {
+      "name": "white_knight_on_a_black_tile",
+      "description": "A white knight on a black tile",
+      "icon": "n",
+      "team": "white",
+      "prompt": [
+        "(purple tile floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "The style is cyberpunk noir. ",
+        "Futuristic.",
+        "realistic skin tones. natural colors.",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack with {yellow} wings:2)",
+        "defending. (crouching behind yellow hedge:2)",
+        "white chess knight in the background.",
+        "(yellow hedge in the foreground:2)"
+      ],
+      "tile": "black_tile",
+      "possession": "white_knight"
+    },
+    {
+      "name": "white_pawn_on_a_white_tile",
+      "description": "A white pawn on a white tile",
+      "icon": "P",
+      "team": "white",
+      "prompt": [
+        "(yellow tile floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "The style is cyberpunk noir. ",
+        "Futuristic.",
+        "realistic skin tones. natural colors.",
+        "{male, pants|female, skirt, leggings}, shirt",
+        "defending. (crouching behind yellow forcefield shield:2)",
+        "white chess pawn in the background.",
+        "(yellow forcefield shield in the foreground:2)"
+      ],
+      "tile": "white_tile",
+      "possession": "white_pawn"
+    },
+    {
+      "name": "white_pawn_on_a_black_tile",
+      "description": "A white pawn on a black tile",
+      "icon": "p",
+      "team": "white",
+      "prompt": [
+        "(purple tile floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {yellow} clothes:2)",
+        "The style is cyberpunk noir. ",
+        "Futuristic.",
+        "realistic skin tones. natural colors.",
+        "{male, pants|female, skirt, leggings}, shirt",
+        "defending. (crouching behind yellow forcefield shield:2)",
+        "white chess pawn in the background.",
+        "(yellow forcefield shield in the foreground:2)"
+      ],
+      "tile": "black_tile",
+      "possession": "white_pawn"
+    },
+    {
+      "name": "black_king_on_a_white_tile",
+      "description": "A black king on a white tile",
+      "icon": "L",
+      "team": "black",
+      "prompt": [
+        "(yellow tile floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "The style is cyberpunk noir. ",
+        "Futuristic.",
+        "realistic skin tones. natural colors.",
+        "(king's crown:2), middle aged, male, pants, shirt, leather jacket with a hood, beard.",
+        "defending. (crouching behind purple ornate forcefield:2)",
+        "black chess king in the background.",
+        "(purple ornate forcefield in the foreground:2)"
+      ],
+      "tile": "white_tile",
+      "possession": "black_king"
+    },
+    {
+      "name": "black_king_on_a_black_tile",
+      "description": "A black king on a black tile",
+      "icon": "l",
+      "team": "black",
+      "prompt": [
+        "(purple tile floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "The style is cyberpunk noir. ",
+        "Futuristic.",
+        "realistic skin tones. natural colors.",
+        "(king's crown:2), middle aged, male, pants, shirt, leather jacket with a hood, beard.",
+        "defending. (crouching behind purple ornate forcefield:2)",
+        "black chess king in the background.",
+        "(purple ornate forcefield in the foreground:2)"
+      ],
+      "tile": "black_tile",
+      "possession": "black_king"
+    },
+    {
+      "name": "black_queen_on_a_white_tile",
+      "description": "A black queen on a white tile",
+      "icon": "W",
+      "team": "black",
+      "prompt": [
+        "(yellow tile floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "The style is cyberpunk noir. ",
+        "Futuristic.",
+        "realistic skin tones. natural colors.",
+        "(queen's crown:2), female, long dress, shirt, leather jacket.",
+        "defending. (crouching behind purple pretty forcefield:2)",
+        "black chess queen in the background.",
+        "(purple pretty forcefield in the foreground:2)"
+      ],
+      "tile": "white_tile",
+      "possession": "black_queen"
+    },
+    {
+      "name": "black_queen_on_a_black_tile",
+      "description": "A black queen on a black tile",
+      "icon": "w",
+      "team": "black",
+      "prompt": [
+        "(purple tile floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "The style is cyberpunk noir. ",
+        "Futuristic.",
+        "realistic skin tones. natural colors.",
+        "(queen's crown:2), female, long dress, shirt, leather jacket.",
+        "defending. (crouching behind purple pretty forcefield:2)",
+        "black chess queen in the background.",
+        "(purple pretty forcefield in the foreground:2)"
+      ],
+      "tile": "black_tile",
+      "possession": "black_queen"
+    },
+    {
+      "name": "black_rook_on_a_white_tile",
+      "description": "A black rook on a white tile",
+      "icon": "T",
+      "team": "black",
+      "prompt": [
+        "(yellow tile floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "The style is cyberpunk noir. ",
+        "Futuristic.",
+        "realistic skin tones. natural colors.",
+        "{male, pants|female, skirt, leggings}, shirt, soft cap, (sunglasses:2)",
+        "defending. (crouching behind purple battlements:2)",
+        "black chess rook in the background.",
+        "(purple battlements in the foreground:2)"
+      ],
+      "tile": "white_tile",
+      "possession": "black_rook"
+    },
+    {
+      "name": "black_rook_on_a_black_tile",
+      "description": "A black rook on a black tile",
+      "icon": "t",
+      "team": "black",
+      "prompt": [
+        "(purple tile floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "The style is cyberpunk noir. ",
+        "Futuristic.",
+        "realistic skin tones. natural colors.",
+        "{male, pants|female, skirt, leggings}, shirt, soft cap, (sunglasses:2)",
+        "defending. (crouching behind purple battlements:2)",
+        "black chess rook in the background.",
+        "(purple battlements in the foreground:2)"
+      ],
+      "tile": "black_tile",
+      "possession": "black_rook"
+    },
+    {
+      "name": "black_bishop_on_a_white_tile",
+      "description": "A black bishop on a white tile",
+      "icon": "V",
+      "team": "black",
+      "prompt": [
+        "(yellow tile floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "The style is cyberpunk noir. ",
+        "Futuristic.",
+        "realistic skin tones. natural colors.",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack:2)",
+        "defending. (crouching behind purple large cargo container:2)",
+        "black chess bishop in the background.",
+        "(purple large cargo container in the foreground:2)"
+      ],
+      "tile": "white_tile",
+      "possession": "black_bishop"
+    },
+    {
+      "name": "black_bishop_on_a_black_tile",
+      "description": "A black bishop on a black tile",
+      "icon": "v",
+      "team": "black",
+      "prompt": [
+        "(purple tile floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "The style is cyberpunk noir. ",
+        "Futuristic.",
+        "realistic skin tones. natural colors.",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack:2)",
+        "defending. (crouching behind purple large cargo container:2)",
+        "black chess bishop in the background.",
+        "(purple large cargo container in the foreground:2)"
+      ],
+      "tile": "black_tile",
+      "possession": "black_bishop"
+    },
+    {
+      "name": "black_knight_on_a_white_tile",
+      "description": "A black knight on a white tile",
+      "icon": "M",
+      "team": "black",
+      "prompt": [
+        "(yellow tile floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "The style is cyberpunk noir. ",
+        "Futuristic.",
+        "realistic skin tones. natural colors.",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack with {purple} wings:2)",
+        "defending. (crouching behind purple hedge:2)",
+        "black chess knight in the background.",
+        "(purple hedge in the foreground:2)"
+      ],
+      "tile": "white_tile",
+      "possession": "black_knight"
+    },
+    {
+      "name": "black_knight_on_a_black_tile",
+      "description": "A black knight on a black tile",
+      "icon": "m",
+      "team": "black",
+      "prompt": [
+        "(purple tile floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "The style is cyberpunk noir. ",
+        "Futuristic.",
+        "realistic skin tones. natural colors.",
+        "{male, pants|female, skirt, leggings}, shirt, (backpack with {purple} wings:2)",
+        "defending. (crouching behind purple hedge:2)",
+        "black chess knight in the background.",
+        "(purple hedge in the foreground:2)"
+      ],
+      "tile": "black_tile",
+      "possession": "black_knight"
+    },
+    {
+      "name": "black_pawn_on_a_white_tile",
+      "description": "A black pawn on a white tile",
+      "icon": "O",
+      "team": "black",
+      "prompt": [
+        "(yellow tile floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "The style is cyberpunk noir. ",
+        "Futuristic.",
+        "realistic skin tones. natural colors.",
+        "{male, pants|female, skirt, leggings}, shirt",
+        "defending. (crouching behind purple forcefield shield:2)",
+        "black chess pawn in the background.",
+        "(purple forcefield shield in the foreground:2)"
+      ],
+      "tile": "white_tile",
+      "possession": "black_pawn"
+    },
+    {
+      "name": "black_pawn_on_a_black_tile",
+      "description": "A black pawn on a black tile",
+      "icon": "o",
+      "team": "black",
+      "prompt": [
+        "(purple tile floor:2).",
+        "BREAK",
+        "The centerpiece of the image is the full body shot of a single person (wearing all {purple} clothes:2)",
+        "The style is cyberpunk noir. ",
+        "Futuristic.",
+        "realistic skin tones. natural colors.",
+        "{male, pants|female, skirt, leggings}, shirt",
+        "defending. (crouching behind purple forcefield shield:2)",
+        "black chess pawn in the background.",
+        "(purple forcefield shield in the foreground:2)"
+      ],
+      "tile": "black_tile",
+      "possession": "black_pawn"
+    }
+  ]
+}
